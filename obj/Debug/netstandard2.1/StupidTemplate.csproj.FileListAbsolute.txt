@@ -1,0 +1,858 @@
+C:\Users\Grayson\Desktop\Gorilla Tag Mods\testplate\testplate\obj\Debug\netstandard2.1\StupidTemplate.csproj.AssemblyReference.cache
+C:\Users\Grayson\Desktop\Gorilla Tag Mods\testplate\testplate\obj\Debug\netstandard2.1\StupidTemplate.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Grayson\Desktop\Gorilla Tag Mods\testplate\testplate\obj\Debug\netstandard2.1\StupidTemplate.AssemblyInfoInputs.cache
+C:\Users\Grayson\Desktop\Gorilla Tag Mods\testplate\testplate\obj\Debug\netstandard2.1\StupidTemplate.AssemblyInfo.cs
+C:\Users\Grayson\Desktop\Gorilla Tag Mods\testplate\testplate\obj\Debug\netstandard2.1\StupidTemplate.csproj.CoreCompileInputs.cache
+C:\Users\Grayson\Desktop\Gorilla Tag Mods\testplate\testplate\bin\Debug\netstandard2.1\StupidTemplate.deps.json
+C:\Users\Grayson\Desktop\Gorilla Tag Mods\testplate\testplate\bin\Debug\netstandard2.1\StupidTemplate.dll
+C:\Users\Grayson\Desktop\Gorilla Tag Mods\testplate\testplate\bin\Debug\netstandard2.1\StupidTemplate.pdb
+C:\Users\Grayson\Desktop\Gorilla Tag Mods\testplate\testplate\bin\Debug\netstandard2.1\0Harmony.dll
+C:\Users\Grayson\Desktop\Gorilla Tag Mods\testplate\testplate\bin\Debug\netstandard2.1\Assembly-CSharp-firstpass.dll
+C:\Users\Grayson\Desktop\Gorilla Tag Mods\testplate\testplate\bin\Debug\netstandard2.1\Assembly-CSharp.dll
+C:\Users\Grayson\Desktop\Gorilla Tag Mods\testplate\testplate\bin\Debug\netstandard2.1\BakeryRuntimeAssembly.dll
+C:\Users\Grayson\Desktop\Gorilla Tag Mods\testplate\testplate\bin\Debug\netstandard2.1\BepInEx.dll
+C:\Users\Grayson\Desktop\Gorilla Tag Mods\testplate\testplate\bin\Debug\netstandard2.1\BepInEx.Harmony.dll
+C:\Users\Grayson\Desktop\Gorilla Tag Mods\testplate\testplate\bin\Debug\netstandard2.1\Cinemachine.dll
+C:\Users\Grayson\Desktop\Gorilla Tag Mods\testplate\testplate\bin\Debug\netstandard2.1\Mono.Security.dll
+C:\Users\Grayson\Desktop\Gorilla Tag Mods\testplate\testplate\bin\Debug\netstandard2.1\Oculus.Platform.dll
+C:\Users\Grayson\Desktop\Gorilla Tag Mods\testplate\testplate\bin\Debug\netstandard2.1\Oculus.VR.dll
+C:\Users\Grayson\Desktop\Gorilla Tag Mods\testplate\testplate\bin\Debug\netstandard2.1\Photon3Unity3D.dll
+C:\Users\Grayson\Desktop\Gorilla Tag Mods\testplate\testplate\bin\Debug\netstandard2.1\PhotonRealtime.dll
+C:\Users\Grayson\Desktop\Gorilla Tag Mods\testplate\testplate\bin\Debug\netstandard2.1\PhotonUnityNetworking.dll
+C:\Users\Grayson\Desktop\Gorilla Tag Mods\testplate\testplate\bin\Debug\netstandard2.1\PhotonUnityNetworking.Utilities.dll
+C:\Users\Grayson\Desktop\Gorilla Tag Mods\testplate\testplate\bin\Debug\netstandard2.1\PhotonVoice.API.dll
+C:\Users\Grayson\Desktop\Gorilla Tag Mods\testplate\testplate\bin\Debug\netstandard2.1\PhotonVoice.dll
+C:\Users\Grayson\Desktop\Gorilla Tag Mods\testplate\testplate\bin\Debug\netstandard2.1\PhotonVoice.PUN.dll
+C:\Users\Grayson\Desktop\Gorilla Tag Mods\testplate\testplate\bin\Debug\netstandard2.1\PlayFab.dll
+C:\Users\Grayson\Desktop\Gorilla Tag Mods\testplate\testplate\bin\Debug\netstandard2.1\System.EnterpriseServices.dll
+C:\Users\Grayson\Desktop\Gorilla Tag Mods\testplate\testplate\bin\Debug\netstandard2.1\System.ServiceModel.Internals.dll
+C:\Users\Grayson\Desktop\Gorilla Tag Mods\testplate\testplate\bin\Debug\netstandard2.1\Unity.Animation.Rigging.dll
+C:\Users\Grayson\Desktop\Gorilla Tag Mods\testplate\testplate\bin\Debug\netstandard2.1\Unity.Burst.dll
+C:\Users\Grayson\Desktop\Gorilla Tag Mods\testplate\testplate\bin\Debug\netstandard2.1\Unity.Burst.Unsafe.dll
+C:\Users\Grayson\Desktop\Gorilla Tag Mods\testplate\testplate\bin\Debug\netstandard2.1\Unity.InputSystem.dll
+C:\Users\Grayson\Desktop\Gorilla Tag Mods\testplate\testplate\bin\Debug\netstandard2.1\Unity.Mathematics.dll
+C:\Users\Grayson\Desktop\Gorilla Tag Mods\testplate\testplate\bin\Debug\netstandard2.1\Unity.Timeline.dll
+C:\Users\Grayson\Desktop\Gorilla Tag Mods\testplate\testplate\bin\Debug\netstandard2.1\Unity.XR.Interaction.Toolkit.dll
+C:\Users\Grayson\Desktop\Gorilla Tag Mods\testplate\testplate\bin\Debug\netstandard2.1\UnityEngine.AccessibilityModule.dll
+C:\Users\Grayson\Desktop\Gorilla Tag Mods\testplate\testplate\bin\Debug\netstandard2.1\UnityEngine.AIModule.dll
+C:\Users\Grayson\Desktop\Gorilla Tag Mods\testplate\testplate\bin\Debug\netstandard2.1\UnityEngine.AndroidJNIModule.dll
+C:\Users\Grayson\Desktop\Gorilla Tag Mods\testplate\testplate\bin\Debug\netstandard2.1\UnityEngine.AnimationModule.dll
+C:\Users\Grayson\Desktop\Gorilla Tag Mods\testplate\testplate\bin\Debug\netstandard2.1\UnityEngine.ARModule.dll
+C:\Users\Grayson\Desktop\Gorilla Tag Mods\testplate\testplate\bin\Debug\netstandard2.1\UnityEngine.AssetBundleModule.dll
+C:\Users\Grayson\Desktop\Gorilla Tag Mods\testplate\testplate\bin\Debug\netstandard2.1\UnityEngine.AudioModule.dll
+C:\Users\Grayson\Desktop\Gorilla Tag Mods\testplate\testplate\bin\Debug\netstandard2.1\UnityEngine.ClothModule.dll
+C:\Users\Grayson\Desktop\Gorilla Tag Mods\testplate\testplate\bin\Debug\netstandard2.1\UnityEngine.ClusterInputModule.dll
+C:\Users\Grayson\Desktop\Gorilla Tag Mods\testplate\testplate\bin\Debug\netstandard2.1\UnityEngine.ClusterRendererModule.dll
+C:\Users\Grayson\Desktop\Gorilla Tag Mods\testplate\testplate\bin\Debug\netstandard2.1\UnityEngine.CoreModule.dll
+C:\Users\Grayson\Desktop\Gorilla Tag Mods\testplate\testplate\bin\Debug\netstandard2.1\UnityEngine.CrashReportingModule.dll
+C:\Users\Grayson\Desktop\Gorilla Tag Mods\testplate\testplate\bin\Debug\netstandard2.1\UnityEngine.DirectorModule.dll
+C:\Users\Grayson\Desktop\Gorilla Tag Mods\testplate\testplate\bin\Debug\netstandard2.1\UnityEngine.dll
+C:\Users\Grayson\Desktop\Gorilla Tag Mods\testplate\testplate\bin\Debug\netstandard2.1\UnityEngine.DSPGraphModule.dll
+C:\Users\Grayson\Desktop\Gorilla Tag Mods\testplate\testplate\bin\Debug\netstandard2.1\UnityEngine.GameCenterModule.dll
+C:\Users\Grayson\Desktop\Gorilla Tag Mods\testplate\testplate\bin\Debug\netstandard2.1\UnityEngine.GridModule.dll
+C:\Users\Grayson\Desktop\Gorilla Tag Mods\testplate\testplate\bin\Debug\netstandard2.1\UnityEngine.HotReloadModule.dll
+C:\Users\Grayson\Desktop\Gorilla Tag Mods\testplate\testplate\bin\Debug\netstandard2.1\UnityEngine.ImageConversionModule.dll
+C:\Users\Grayson\Desktop\Gorilla Tag Mods\testplate\testplate\bin\Debug\netstandard2.1\UnityEngine.IMGUIModule.dll
+C:\Users\Grayson\Desktop\Gorilla Tag Mods\testplate\testplate\bin\Debug\netstandard2.1\UnityEngine.InputLegacyModule.dll
+C:\Users\Grayson\Desktop\Gorilla Tag Mods\testplate\testplate\bin\Debug\netstandard2.1\UnityEngine.InputModule.dll
+C:\Users\Grayson\Desktop\Gorilla Tag Mods\testplate\testplate\bin\Debug\netstandard2.1\UnityEngine.JSONSerializeModule.dll
+C:\Users\Grayson\Desktop\Gorilla Tag Mods\testplate\testplate\bin\Debug\netstandard2.1\UnityEngine.LocalizationModule.dll
+C:\Users\Grayson\Desktop\Gorilla Tag Mods\testplate\testplate\bin\Debug\netstandard2.1\UnityEngine.ParticleSystemModule.dll
+C:\Users\Grayson\Desktop\Gorilla Tag Mods\testplate\testplate\bin\Debug\netstandard2.1\UnityEngine.PerformanceReportingModule.dll
+C:\Users\Grayson\Desktop\Gorilla Tag Mods\testplate\testplate\bin\Debug\netstandard2.1\UnityEngine.Physics2DModule.dll
+C:\Users\Grayson\Desktop\Gorilla Tag Mods\testplate\testplate\bin\Debug\netstandard2.1\UnityEngine.PhysicsModule.dll
+C:\Users\Grayson\Desktop\Gorilla Tag Mods\testplate\testplate\bin\Debug\netstandard2.1\UnityEngine.ProfilerModule.dll
+C:\Users\Grayson\Desktop\Gorilla Tag Mods\testplate\testplate\bin\Debug\netstandard2.1\UnityEngine.ScreenCaptureModule.dll
+C:\Users\Grayson\Desktop\Gorilla Tag Mods\testplate\testplate\bin\Debug\netstandard2.1\UnityEngine.SharedInternalsModule.dll
+C:\Users\Grayson\Desktop\Gorilla Tag Mods\testplate\testplate\bin\Debug\netstandard2.1\UnityEngine.SpatialTracking.dll
+C:\Users\Grayson\Desktop\Gorilla Tag Mods\testplate\testplate\bin\Debug\netstandard2.1\UnityEngine.SpriteMaskModule.dll
+C:\Users\Grayson\Desktop\Gorilla Tag Mods\testplate\testplate\bin\Debug\netstandard2.1\UnityEngine.SpriteShapeModule.dll
+C:\Users\Grayson\Desktop\Gorilla Tag Mods\testplate\testplate\bin\Debug\netstandard2.1\UnityEngine.StreamingModule.dll
+C:\Users\Grayson\Desktop\Gorilla Tag Mods\testplate\testplate\bin\Debug\netstandard2.1\UnityEngine.SubstanceModule.dll
+C:\Users\Grayson\Desktop\Gorilla Tag Mods\testplate\testplate\bin\Debug\netstandard2.1\UnityEngine.SubsystemsModule.dll
+C:\Users\Grayson\Desktop\Gorilla Tag Mods\testplate\testplate\bin\Debug\netstandard2.1\UnityEngine.TerrainModule.dll
+C:\Users\Grayson\Desktop\Gorilla Tag Mods\testplate\testplate\bin\Debug\netstandard2.1\UnityEngine.TerrainPhysicsModule.dll
+C:\Users\Grayson\Desktop\Gorilla Tag Mods\testplate\testplate\bin\Debug\netstandard2.1\UnityEngine.TextRenderingModule.dll
+C:\Users\Grayson\Desktop\Gorilla Tag Mods\testplate\testplate\bin\Debug\netstandard2.1\UnityEngine.TilemapModule.dll
+C:\Users\Grayson\Desktop\Gorilla Tag Mods\testplate\testplate\bin\Debug\netstandard2.1\UnityEngine.TLSModule.dll
+C:\Users\Grayson\Desktop\Gorilla Tag Mods\testplate\testplate\bin\Debug\netstandard2.1\UnityEngine.UI.dll
+C:\Users\Grayson\Desktop\Gorilla Tag Mods\testplate\testplate\bin\Debug\netstandard2.1\UnityEngine.UIElementsModule.dll
+C:\Users\Grayson\Desktop\Gorilla Tag Mods\testplate\testplate\bin\Debug\netstandard2.1\UnityEngine.UIModule.dll
+C:\Users\Grayson\Desktop\Gorilla Tag Mods\testplate\testplate\bin\Debug\netstandard2.1\UnityEngine.UmbraModule.dll
+C:\Users\Grayson\Desktop\Gorilla Tag Mods\testplate\testplate\bin\Debug\netstandard2.1\UnityEngine.UnityAnalyticsModule.dll
+C:\Users\Grayson\Desktop\Gorilla Tag Mods\testplate\testplate\bin\Debug\netstandard2.1\UnityEngine.UnityConnectModule.dll
+C:\Users\Grayson\Desktop\Gorilla Tag Mods\testplate\testplate\bin\Debug\netstandard2.1\UnityEngine.UnityTestProtocolModule.dll
+C:\Users\Grayson\Desktop\Gorilla Tag Mods\testplate\testplate\bin\Debug\netstandard2.1\UnityEngine.UnityWebRequestAssetBundleModule.dll
+C:\Users\Grayson\Desktop\Gorilla Tag Mods\testplate\testplate\bin\Debug\netstandard2.1\UnityEngine.UnityWebRequestAudioModule.dll
+C:\Users\Grayson\Desktop\Gorilla Tag Mods\testplate\testplate\bin\Debug\netstandard2.1\UnityEngine.UnityWebRequestModule.dll
+C:\Users\Grayson\Desktop\Gorilla Tag Mods\testplate\testplate\bin\Debug\netstandard2.1\UnityEngine.UnityWebRequestTextureModule.dll
+C:\Users\Grayson\Desktop\Gorilla Tag Mods\testplate\testplate\bin\Debug\netstandard2.1\UnityEngine.UnityWebRequestWWWModule.dll
+C:\Users\Grayson\Desktop\Gorilla Tag Mods\testplate\testplate\bin\Debug\netstandard2.1\UnityEngine.VehiclesModule.dll
+C:\Users\Grayson\Desktop\Gorilla Tag Mods\testplate\testplate\bin\Debug\netstandard2.1\UnityEngine.VFXModule.dll
+C:\Users\Grayson\Desktop\Gorilla Tag Mods\testplate\testplate\bin\Debug\netstandard2.1\UnityEngine.VideoModule.dll
+C:\Users\Grayson\Desktop\Gorilla Tag Mods\testplate\testplate\bin\Debug\netstandard2.1\UnityEngine.VRModule.dll
+C:\Users\Grayson\Desktop\Gorilla Tag Mods\testplate\testplate\bin\Debug\netstandard2.1\UnityEngine.WindModule.dll
+C:\Users\Grayson\Desktop\Gorilla Tag Mods\testplate\testplate\bin\Debug\netstandard2.1\UnityEngine.XR.LegacyInputHelpers.dll
+C:\Users\Grayson\Desktop\Gorilla Tag Mods\testplate\testplate\bin\Debug\netstandard2.1\UnityEngine.XRModule.dll
+C:\Users\Grayson\Desktop\Gorilla Tag Mods\testplate\testplate\bin\Debug\netstandard2.1\websocket-sharp.dll
+C:\Users\Grayson\Desktop\Gorilla Tag Mods\testplate\testplate\bin\Debug\netstandard2.1\Mono.Cecil.dll
+C:\Users\Grayson\Desktop\Gorilla Tag Mods\testplate\testplate\bin\Debug\netstandard2.1\MonoMod.Utils.dll
+C:\Users\Grayson\Desktop\Gorilla Tag Mods\testplate\testplate\bin\Debug\netstandard2.1\MonoMod.RuntimeDetour.dll
+C:\Users\Grayson\Desktop\Gorilla Tag Mods\testplate\testplate\bin\Debug\netstandard2.1\AstarPathfindingProject.dll
+C:\Users\Grayson\Desktop\Gorilla Tag Mods\testplate\testplate\bin\Debug\netstandard2.1\Sirenix.OdinInspector.Attributes.dll
+C:\Users\Grayson\Desktop\Gorilla Tag Mods\testplate\testplate\bin\Debug\netstandard2.1\Unity.TextMeshPro.dll
+C:\Users\Grayson\Desktop\Gorilla Tag Mods\testplate\testplate\bin\Debug\netstandard2.1\SteamVR_Actions.dll
+C:\Users\Grayson\Desktop\Gorilla Tag Mods\testplate\testplate\bin\Debug\netstandard2.1\SteamVR.dll
+C:\Users\Grayson\Desktop\Gorilla Tag Mods\testplate\testplate\bin\Debug\netstandard2.1\Backtrace.Unity.dll
+C:\Users\Grayson\Desktop\Gorilla Tag Mods\testplate\testplate\bin\Debug\netstandard2.1\Unity.RenderPipelines.Universal.Runtime.dll
+C:\Users\Grayson\Desktop\Gorilla Tag Mods\testplate\testplate\bin\Debug\netstandard2.1\Unity.RenderPipelines.Core.Runtime.dll
+C:\Users\Grayson\Desktop\Gorilla Tag Mods\testplate\testplate\bin\Debug\netstandard2.1\Unity.XR.CoreUtils.dll
+C:\Users\Grayson\Desktop\Gorilla Tag Mods\testplate\testplate\bin\Debug\netstandard2.1\UnityEngine.UnityCurlModule.dll
+C:\Users\Grayson\Desktop\Gorilla Tag Mods\testplate\testplate\bin\Debug\netstandard2.1\UnityEngine.ContentLoadModule.dll
+C:\Users\Grayson\Desktop\Gorilla Tag Mods\testplate\testplate\bin\Debug\netstandard2.1\UnityEngine.PropertiesModule.dll
+C:\Users\Grayson\Desktop\Gorilla Tag Mods\testplate\testplate\bin\Debug\netstandard2.1\UnityEngine.UnityAnalyticsCommonModule.dll
+C:\Users\Grayson\Desktop\Gorilla Tag Mods\testplate\testplate\bin\Debug\netstandard2.1\UnityEngine.NVIDIAModule.dll
+C:\Users\Grayson\Desktop\Gorilla Tag Mods\testplate\testplate\bin\Debug\netstandard2.1\UnityEngine.VirtualTexturingModule.dll
+C:\Users\Grayson\Desktop\Gorilla Tag Mods\testplate\testplate\bin\Debug\netstandard2.1\UnityEngine.TextCoreFontEngineModule.dll
+C:\Users\Grayson\Desktop\Gorilla Tag Mods\testplate\testplate\bin\Debug\netstandard2.1\UnityEngine.TextCoreTextEngineModule.dll
+C:\Users\Grayson\Desktop\Gorilla Tag Mods\testplate\testplate\bin\Debug\netstandard2.1\Pathfinding.Ionic.Zip.Reduced.dll
+C:\Users\Grayson\Desktop\Gorilla Tag Mods\testplate\testplate\bin\Debug\netstandard2.1\Pathfinding.ClipperLib.dll
+C:\Users\Grayson\Desktop\Gorilla Tag Mods\testplate\testplate\bin\Debug\netstandard2.1\Pathfinding.Poly2Tri.dll
+C:\Users\Grayson\Desktop\Gorilla Tag Mods\testplate\testplate\bin\Debug\netstandard2.1\Unity.XR.OpenVR.dll
+C:\Users\Grayson\Desktop\Gorilla Tag Mods\testplate\testplate\bin\Debug\netstandard2.1\Valve.Newtonsoft.Json.dll
+C:\Users\Grayson\Desktop\Gorilla Tag Mods\testplate\testplate\bin\Debug\netstandard2.1\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+C:\Users\Grayson\Desktop\Gorilla Tag Mods\testplate\testplate\bin\Debug\netstandard2.1\Unity.XR.Management.dll
+C:\Users\Grayson\Desktop\Gorilla Tag Mods\testplate\testplate\bin\Debug\netstandard2.1\0Harmony.xml
+C:\Users\Grayson\Desktop\Gorilla Tag Mods\testplate\testplate\bin\Debug\netstandard2.1\BepInEx.xml
+C:\Users\Grayson\Desktop\Gorilla Tag Mods\testplate\testplate\bin\Debug\netstandard2.1\BepInEx.Harmony.xml
+C:\Users\Grayson\Desktop\Gorilla Tag Mods\testplate\testplate\bin\Debug\netstandard2.1\MonoMod.Utils.xml
+C:\Users\Grayson\Desktop\Gorilla Tag Mods\testplate\testplate\bin\Debug\netstandard2.1\MonoMod.RuntimeDetour.xml
+C:\Users\Grayson\Desktop\Gorilla Tag Mods\testplate\testplate\obj\Debug\netstandard2.1\StupidTemplate.dll
+C:\Users\Grayson\Desktop\Gorilla Tag Mods\testplate\testplate\obj\Debug\netstandard2.1\StupidTemplate.pdb
+C:\Users\Grayson\Desktop\Gorilla Tag Mods\testplate\testplate\bin\Debug\netstandard2.1\Fusion.Runtime.dll
+C:\Users\Grayson\Desktop\Gorilla Tag Mods\testplate\testplate\bin\Debug\netstandard2.1\Fusion.Sockets.dll
+C:\Users\Grayson\Desktop\Gorilla Tag Mods\testplate\testplate\bin\Debug\netstandard2.1\Fusion.Realtime.dll
+C:\Users\Grayson\Desktop\Gorilla Tag Mods\testplate\testplate\bin\Debug\netstandard2.1\PhotonVoice.Fusion.dll
+C:\Users\Grayson\Desktop\Gorilla Tag Mods\testplate\testplate\bin\Debug\netstandard2.1\Fusion.Common.dll
+C:\Users\Grayson\Desktop\Gorilla Tag Mods\testplate\testplate\bin\Debug\netstandard2.1\VoiceSDK.Dictation.Runtime.dll
+C:\Users\Grayson\Desktop\Gorilla Tag Mods\testplate\testplate\bin\Debug\netstandard2.1\Newtonsoft.Json.dll
+C:\Users\Grayson\Desktop\Gorilla Tag Mods\testplate\testplate\bin\Debug\netstandard2.1\Unity.Collections.dll
+C:\Users\Grayson\Desktop\Gorilla Tag Mods\testplate\testplate\bin\Debug\netstandard2.1\NanoSockets.dll
+C:\Users\Grayson\Desktop\Gorilla Tag Mods\testplate\testplate\bin\Debug\netstandard2.1\Facebook.WitAI.dll
+C:\Users\Grayson\Desktop\Gorilla Tag Mods\testplate\testplate\bin\Debug\netstandard2.1\Facebook.Wit.Dictation.dll
+C:\Users\Grayson\Desktop\Gorilla Tag Mods\testplate\testplate\bin\Debug\netstandard2.1\AssistantCoreSDKRuntime.dll
+C:\Users\Grayson\Desktop\Gorilla Tag Mods\testplate\testplate\bin\Debug\netstandard2.1\Unity.Collections.LowLevel.ILSupport.dll
+C:\Users\Grayson\Desktop\Gorilla Tag Mods\testplate\testplate\bin\Debug\netstandard2.1\Facebook.Wit.Conduit.dll
+C:\Users\Grayson\Desktop\Gorilla Tag Mods\testplate\testplate\bin\Debug\netstandard2.1\LitJson.dll
+C:\Users\Grayson\Desktop\Gorilla Tag Mods\testplate\testplate\obj\Debug\netstandard2.1\StupidTe.F5B94829.Up2Date
+C:\Users\Obsidian\Downloads\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\0Harmony.dll
+C:\Users\Obsidian\Downloads\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\Assembly-CSharp-firstpass.dll
+C:\Users\Obsidian\Downloads\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\Assembly-CSharp.dll
+C:\Users\Obsidian\Downloads\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\BakeryRuntimeAssembly.dll
+C:\Users\Obsidian\Downloads\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\BepInEx.dll
+C:\Users\Obsidian\Downloads\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\BepInEx.Harmony.dll
+C:\Users\Obsidian\Downloads\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\Cinemachine.dll
+C:\Users\Obsidian\Downloads\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\Mono.Security.dll
+C:\Users\Obsidian\Downloads\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\Oculus.Platform.dll
+C:\Users\Obsidian\Downloads\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\Oculus.VR.dll
+C:\Users\Obsidian\Downloads\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\Photon3Unity3D.dll
+C:\Users\Obsidian\Downloads\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\PhotonRealtime.dll
+C:\Users\Obsidian\Downloads\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\PhotonUnityNetworking.dll
+C:\Users\Obsidian\Downloads\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\PhotonUnityNetworking.Utilities.dll
+C:\Users\Obsidian\Downloads\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\PhotonVoice.API.dll
+C:\Users\Obsidian\Downloads\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\PhotonVoice.dll
+C:\Users\Obsidian\Downloads\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\PhotonVoice.PUN.dll
+C:\Users\Obsidian\Downloads\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\PlayFab.dll
+C:\Users\Obsidian\Downloads\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\System.EnterpriseServices.dll
+C:\Users\Obsidian\Downloads\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\System.ServiceModel.Internals.dll
+C:\Users\Obsidian\Downloads\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\Unity.Animation.Rigging.dll
+C:\Users\Obsidian\Downloads\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\Unity.Burst.dll
+C:\Users\Obsidian\Downloads\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\Unity.Burst.Unsafe.dll
+C:\Users\Obsidian\Downloads\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\Unity.InputSystem.dll
+C:\Users\Obsidian\Downloads\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\Unity.Mathematics.dll
+C:\Users\Obsidian\Downloads\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\Unity.Timeline.dll
+C:\Users\Obsidian\Downloads\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\Unity.XR.Interaction.Toolkit.dll
+C:\Users\Obsidian\Downloads\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\UnityEngine.AccessibilityModule.dll
+C:\Users\Obsidian\Downloads\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\UnityEngine.AIModule.dll
+C:\Users\Obsidian\Downloads\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\UnityEngine.AndroidJNIModule.dll
+C:\Users\Obsidian\Downloads\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\UnityEngine.AnimationModule.dll
+C:\Users\Obsidian\Downloads\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\UnityEngine.ARModule.dll
+C:\Users\Obsidian\Downloads\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\UnityEngine.AssetBundleModule.dll
+C:\Users\Obsidian\Downloads\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\UnityEngine.AudioModule.dll
+C:\Users\Obsidian\Downloads\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\UnityEngine.ClothModule.dll
+C:\Users\Obsidian\Downloads\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\UnityEngine.ClusterInputModule.dll
+C:\Users\Obsidian\Downloads\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\UnityEngine.ClusterRendererModule.dll
+C:\Users\Obsidian\Downloads\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\UnityEngine.CoreModule.dll
+C:\Users\Obsidian\Downloads\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\UnityEngine.CrashReportingModule.dll
+C:\Users\Obsidian\Downloads\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\UnityEngine.DirectorModule.dll
+C:\Users\Obsidian\Downloads\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\UnityEngine.dll
+C:\Users\Obsidian\Downloads\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\UnityEngine.DSPGraphModule.dll
+C:\Users\Obsidian\Downloads\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\UnityEngine.GameCenterModule.dll
+C:\Users\Obsidian\Downloads\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\UnityEngine.GridModule.dll
+C:\Users\Obsidian\Downloads\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\UnityEngine.HotReloadModule.dll
+C:\Users\Obsidian\Downloads\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\UnityEngine.ImageConversionModule.dll
+C:\Users\Obsidian\Downloads\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\UnityEngine.IMGUIModule.dll
+C:\Users\Obsidian\Downloads\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\UnityEngine.InputLegacyModule.dll
+C:\Users\Obsidian\Downloads\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\UnityEngine.InputModule.dll
+C:\Users\Obsidian\Downloads\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\UnityEngine.JSONSerializeModule.dll
+C:\Users\Obsidian\Downloads\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\UnityEngine.LocalizationModule.dll
+C:\Users\Obsidian\Downloads\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\UnityEngine.ParticleSystemModule.dll
+C:\Users\Obsidian\Downloads\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\UnityEngine.PerformanceReportingModule.dll
+C:\Users\Obsidian\Downloads\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\UnityEngine.Physics2DModule.dll
+C:\Users\Obsidian\Downloads\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\UnityEngine.PhysicsModule.dll
+C:\Users\Obsidian\Downloads\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\UnityEngine.ProfilerModule.dll
+C:\Users\Obsidian\Downloads\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\UnityEngine.ScreenCaptureModule.dll
+C:\Users\Obsidian\Downloads\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\UnityEngine.SharedInternalsModule.dll
+C:\Users\Obsidian\Downloads\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\UnityEngine.SpatialTracking.dll
+C:\Users\Obsidian\Downloads\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\UnityEngine.SpriteMaskModule.dll
+C:\Users\Obsidian\Downloads\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\UnityEngine.SpriteShapeModule.dll
+C:\Users\Obsidian\Downloads\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\UnityEngine.StreamingModule.dll
+C:\Users\Obsidian\Downloads\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\UnityEngine.SubstanceModule.dll
+C:\Users\Obsidian\Downloads\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\UnityEngine.SubsystemsModule.dll
+C:\Users\Obsidian\Downloads\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\UnityEngine.TerrainModule.dll
+C:\Users\Obsidian\Downloads\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\UnityEngine.TerrainPhysicsModule.dll
+C:\Users\Obsidian\Downloads\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\UnityEngine.TextRenderingModule.dll
+C:\Users\Obsidian\Downloads\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\UnityEngine.TilemapModule.dll
+C:\Users\Obsidian\Downloads\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\UnityEngine.TLSModule.dll
+C:\Users\Obsidian\Downloads\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\UnityEngine.UI.dll
+C:\Users\Obsidian\Downloads\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\UnityEngine.UIElementsModule.dll
+C:\Users\Obsidian\Downloads\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\UnityEngine.UIModule.dll
+C:\Users\Obsidian\Downloads\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\UnityEngine.UmbraModule.dll
+C:\Users\Obsidian\Downloads\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\UnityEngine.UnityAnalyticsModule.dll
+C:\Users\Obsidian\Downloads\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\UnityEngine.UnityConnectModule.dll
+C:\Users\Obsidian\Downloads\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\UnityEngine.UnityTestProtocolModule.dll
+C:\Users\Obsidian\Downloads\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\UnityEngine.UnityWebRequestAssetBundleModule.dll
+C:\Users\Obsidian\Downloads\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\UnityEngine.UnityWebRequestAudioModule.dll
+C:\Users\Obsidian\Downloads\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\UnityEngine.UnityWebRequestModule.dll
+C:\Users\Obsidian\Downloads\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\UnityEngine.UnityWebRequestTextureModule.dll
+C:\Users\Obsidian\Downloads\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\UnityEngine.UnityWebRequestWWWModule.dll
+C:\Users\Obsidian\Downloads\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\UnityEngine.VehiclesModule.dll
+C:\Users\Obsidian\Downloads\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\UnityEngine.VFXModule.dll
+C:\Users\Obsidian\Downloads\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\UnityEngine.VideoModule.dll
+C:\Users\Obsidian\Downloads\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\UnityEngine.VRModule.dll
+C:\Users\Obsidian\Downloads\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\UnityEngine.WindModule.dll
+C:\Users\Obsidian\Downloads\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\UnityEngine.XR.LegacyInputHelpers.dll
+C:\Users\Obsidian\Downloads\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\UnityEngine.XRModule.dll
+C:\Users\Obsidian\Downloads\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\Utilla.dll
+C:\Users\Obsidian\Downloads\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\websocket-sharp.dll
+C:\Users\Obsidian\Downloads\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\Mono.Cecil.dll
+C:\Users\Obsidian\Downloads\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\MonoMod.Utils.dll
+C:\Users\Obsidian\Downloads\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\MonoMod.RuntimeDetour.dll
+C:\Users\Obsidian\Downloads\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\AstarPathfindingProject.dll
+C:\Users\Obsidian\Downloads\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\Sirenix.OdinInspector.Attributes.dll
+C:\Users\Obsidian\Downloads\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\Fusion.Runtime.dll
+C:\Users\Obsidian\Downloads\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\Fusion.Sockets.dll
+C:\Users\Obsidian\Downloads\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\Fusion.Realtime.dll
+C:\Users\Obsidian\Downloads\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\PhotonVoice.Fusion.dll
+C:\Users\Obsidian\Downloads\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\Unity.TextMeshPro.dll
+C:\Users\Obsidian\Downloads\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\Fusion.Common.dll
+C:\Users\Obsidian\Downloads\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\Backtrace.Unity.dll
+C:\Users\Obsidian\Downloads\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\AA.Mothership.dll
+C:\Users\Obsidian\Downloads\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\Unity.RenderPipelines.Core.Runtime.dll
+C:\Users\Obsidian\Downloads\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\SteamVR_Actions.dll
+C:\Users\Obsidian\Downloads\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\SteamVR.dll
+C:\Users\Obsidian\Downloads\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\VoiceSDK.Runtime.dll
+C:\Users\Obsidian\Downloads\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\ZString.dll
+C:\Users\Obsidian\Downloads\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\Unity.Collections.dll
+C:\Users\Obsidian\Downloads\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\Unity.RenderPipelines.Universal.Runtime.dll
+C:\Users\Obsidian\Downloads\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\Unity.XR.CoreUtils.dll
+C:\Users\Obsidian\Downloads\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\UnityEngine.UnityCurlModule.dll
+C:\Users\Obsidian\Downloads\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\UnityEngine.ContentLoadModule.dll
+C:\Users\Obsidian\Downloads\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\UnityEngine.PropertiesModule.dll
+C:\Users\Obsidian\Downloads\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\UnityEngine.UnityAnalyticsCommonModule.dll
+C:\Users\Obsidian\Downloads\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\UnityEngine.NVIDIAModule.dll
+C:\Users\Obsidian\Downloads\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\UnityEngine.VirtualTexturingModule.dll
+C:\Users\Obsidian\Downloads\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\UnityEngine.TextCoreFontEngineModule.dll
+C:\Users\Obsidian\Downloads\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\UnityEngine.TextCoreTextEngineModule.dll
+C:\Users\Obsidian\Downloads\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\Pathfinding.Ionic.Zip.Reduced.dll
+C:\Users\Obsidian\Downloads\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\Pathfinding.ClipperLib.dll
+C:\Users\Obsidian\Downloads\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\Pathfinding.Poly2Tri.dll
+C:\Users\Obsidian\Downloads\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\NanoSockets.dll
+C:\Users\Obsidian\Downloads\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\Unity.XR.OpenVR.dll
+C:\Users\Obsidian\Downloads\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\Valve.Newtonsoft.Json.dll
+C:\Users\Obsidian\Downloads\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\Meta.WitAi.dll
+C:\Users\Obsidian\Downloads\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\AssistantCoreSDKRuntime.dll
+C:\Users\Obsidian\Downloads\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\Meta.WitAi.Lib.dll
+C:\Users\Obsidian\Downloads\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\Meta.WitAi.TTS.dll
+C:\Users\Obsidian\Downloads\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Obsidian\Downloads\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\Unity.Collections.LowLevel.ILSupport.dll
+C:\Users\Obsidian\Downloads\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+C:\Users\Obsidian\Downloads\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\Unity.XR.Management.dll
+C:\Users\Obsidian\Downloads\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\Meta.VoiceSDK.Mic.Common.dll
+C:\Users\Obsidian\Downloads\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\Meta.WitAi.Conduit.dll
+C:\Users\Obsidian\Downloads\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\Meta.VoiceSDK.Mic.Other.dll
+C:\Users\Obsidian\Downloads\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\0Harmony.xml
+C:\Users\Obsidian\Downloads\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\BepInEx.xml
+C:\Users\Obsidian\Downloads\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\BepInEx.Harmony.xml
+C:\Users\Obsidian\Downloads\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\MonoMod.Utils.xml
+C:\Users\Obsidian\Downloads\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\MonoMod.RuntimeDetour.xml
+C:\Users\Obsidian\Downloads\lost_the_money_in_my_bank_account\testplate\obj\Debug\netstandard2.1\StupidTemplate.csproj.AssemblyReference.cache
+C:\Users\Obsidian\Downloads\lost_the_money_in_my_bank_account\testplate\obj\Debug\netstandard2.1\StupidTemplate.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Obsidian\Downloads\lost_the_money_in_my_bank_account\testplate\obj\Debug\netstandard2.1\StupidTemplate.AssemblyInfoInputs.cache
+C:\Users\Obsidian\Downloads\lost_the_money_in_my_bank_account\testplate\obj\Debug\netstandard2.1\StupidTemplate.AssemblyInfo.cs
+C:\Users\Obsidian\Downloads\lost_the_money_in_my_bank_account\testplate\obj\Debug\netstandard2.1\StupidTemplate.csproj.CoreCompileInputs.cache
+C:\Users\Obsidian\Downloads\lost_the_money_in_my_bank_account\testplate\obj\Debug\netstandard2.1\StupidTemplate.csproj.CopyComplete
+C:\Users\villo\Downloads\QUIETMENU STUFF\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\WackyMenu.deps.json
+C:\Users\villo\Downloads\QUIETMENU STUFF\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\WackyMenu.dll
+C:\Users\villo\Downloads\QUIETMENU STUFF\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\WackyMenu.pdb
+C:\Users\villo\Downloads\QUIETMENU STUFF\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\0Harmony.dll
+C:\Users\villo\Downloads\QUIETMENU STUFF\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\Assembly-CSharp-firstpass.dll
+C:\Users\villo\Downloads\QUIETMENU STUFF\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\Assembly-CSharp.dll
+C:\Users\villo\Downloads\QUIETMENU STUFF\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\BakeryRuntimeAssembly.dll
+C:\Users\villo\Downloads\QUIETMENU STUFF\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\BepInEx.dll
+C:\Users\villo\Downloads\QUIETMENU STUFF\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\BepInEx.Harmony.dll
+C:\Users\villo\Downloads\QUIETMENU STUFF\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\Cinemachine.dll
+C:\Users\villo\Downloads\QUIETMENU STUFF\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\Mono.Security.dll
+C:\Users\villo\Downloads\QUIETMENU STUFF\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\Oculus.Platform.dll
+C:\Users\villo\Downloads\QUIETMENU STUFF\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\Oculus.VR.dll
+C:\Users\villo\Downloads\QUIETMENU STUFF\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\Photon3Unity3D.dll
+C:\Users\villo\Downloads\QUIETMENU STUFF\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\PhotonRealtime.dll
+C:\Users\villo\Downloads\QUIETMENU STUFF\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\PhotonUnityNetworking.dll
+C:\Users\villo\Downloads\QUIETMENU STUFF\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\PhotonUnityNetworking.Utilities.dll
+C:\Users\villo\Downloads\QUIETMENU STUFF\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\PhotonVoice.API.dll
+C:\Users\villo\Downloads\QUIETMENU STUFF\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\PhotonVoice.dll
+C:\Users\villo\Downloads\QUIETMENU STUFF\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\PhotonVoice.PUN.dll
+C:\Users\villo\Downloads\QUIETMENU STUFF\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\PlayFab.dll
+C:\Users\villo\Downloads\QUIETMENU STUFF\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\System.EnterpriseServices.dll
+C:\Users\villo\Downloads\QUIETMENU STUFF\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\System.ServiceModel.Internals.dll
+C:\Users\villo\Downloads\QUIETMENU STUFF\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\Unity.Animation.Rigging.dll
+C:\Users\villo\Downloads\QUIETMENU STUFF\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\Unity.Burst.dll
+C:\Users\villo\Downloads\QUIETMENU STUFF\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\Unity.Burst.Unsafe.dll
+C:\Users\villo\Downloads\QUIETMENU STUFF\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\Unity.InputSystem.dll
+C:\Users\villo\Downloads\QUIETMENU STUFF\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\Unity.Mathematics.dll
+C:\Users\villo\Downloads\QUIETMENU STUFF\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\Unity.Timeline.dll
+C:\Users\villo\Downloads\QUIETMENU STUFF\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\Unity.XR.Interaction.Toolkit.dll
+C:\Users\villo\Downloads\QUIETMENU STUFF\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\UnityEngine.AccessibilityModule.dll
+C:\Users\villo\Downloads\QUIETMENU STUFF\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\UnityEngine.AIModule.dll
+C:\Users\villo\Downloads\QUIETMENU STUFF\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\UnityEngine.AndroidJNIModule.dll
+C:\Users\villo\Downloads\QUIETMENU STUFF\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\UnityEngine.AnimationModule.dll
+C:\Users\villo\Downloads\QUIETMENU STUFF\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\UnityEngine.ARModule.dll
+C:\Users\villo\Downloads\QUIETMENU STUFF\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\UnityEngine.AssetBundleModule.dll
+C:\Users\villo\Downloads\QUIETMENU STUFF\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\UnityEngine.AudioModule.dll
+C:\Users\villo\Downloads\QUIETMENU STUFF\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\UnityEngine.ClothModule.dll
+C:\Users\villo\Downloads\QUIETMENU STUFF\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\UnityEngine.ClusterInputModule.dll
+C:\Users\villo\Downloads\QUIETMENU STUFF\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\UnityEngine.ClusterRendererModule.dll
+C:\Users\villo\Downloads\QUIETMENU STUFF\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\UnityEngine.CoreModule.dll
+C:\Users\villo\Downloads\QUIETMENU STUFF\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\UnityEngine.CrashReportingModule.dll
+C:\Users\villo\Downloads\QUIETMENU STUFF\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\UnityEngine.DirectorModule.dll
+C:\Users\villo\Downloads\QUIETMENU STUFF\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\UnityEngine.dll
+C:\Users\villo\Downloads\QUIETMENU STUFF\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\UnityEngine.DSPGraphModule.dll
+C:\Users\villo\Downloads\QUIETMENU STUFF\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\UnityEngine.GameCenterModule.dll
+C:\Users\villo\Downloads\QUIETMENU STUFF\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\UnityEngine.GridModule.dll
+C:\Users\villo\Downloads\QUIETMENU STUFF\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\UnityEngine.HotReloadModule.dll
+C:\Users\villo\Downloads\QUIETMENU STUFF\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\UnityEngine.ImageConversionModule.dll
+C:\Users\villo\Downloads\QUIETMENU STUFF\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\UnityEngine.IMGUIModule.dll
+C:\Users\villo\Downloads\QUIETMENU STUFF\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\UnityEngine.InputLegacyModule.dll
+C:\Users\villo\Downloads\QUIETMENU STUFF\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\UnityEngine.InputModule.dll
+C:\Users\villo\Downloads\QUIETMENU STUFF\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\UnityEngine.JSONSerializeModule.dll
+C:\Users\villo\Downloads\QUIETMENU STUFF\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\UnityEngine.LocalizationModule.dll
+C:\Users\villo\Downloads\QUIETMENU STUFF\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\UnityEngine.ParticleSystemModule.dll
+C:\Users\villo\Downloads\QUIETMENU STUFF\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\UnityEngine.PerformanceReportingModule.dll
+C:\Users\villo\Downloads\QUIETMENU STUFF\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\UnityEngine.Physics2DModule.dll
+C:\Users\villo\Downloads\QUIETMENU STUFF\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\UnityEngine.PhysicsModule.dll
+C:\Users\villo\Downloads\QUIETMENU STUFF\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\UnityEngine.ProfilerModule.dll
+C:\Users\villo\Downloads\QUIETMENU STUFF\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\UnityEngine.ScreenCaptureModule.dll
+C:\Users\villo\Downloads\QUIETMENU STUFF\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\UnityEngine.SharedInternalsModule.dll
+C:\Users\villo\Downloads\QUIETMENU STUFF\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\UnityEngine.SpatialTracking.dll
+C:\Users\villo\Downloads\QUIETMENU STUFF\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\UnityEngine.SpriteMaskModule.dll
+C:\Users\villo\Downloads\QUIETMENU STUFF\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\UnityEngine.SpriteShapeModule.dll
+C:\Users\villo\Downloads\QUIETMENU STUFF\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\UnityEngine.StreamingModule.dll
+C:\Users\villo\Downloads\QUIETMENU STUFF\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\UnityEngine.SubstanceModule.dll
+C:\Users\villo\Downloads\QUIETMENU STUFF\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\UnityEngine.SubsystemsModule.dll
+C:\Users\villo\Downloads\QUIETMENU STUFF\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\UnityEngine.TerrainModule.dll
+C:\Users\villo\Downloads\QUIETMENU STUFF\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\UnityEngine.TerrainPhysicsModule.dll
+C:\Users\villo\Downloads\QUIETMENU STUFF\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\UnityEngine.TextRenderingModule.dll
+C:\Users\villo\Downloads\QUIETMENU STUFF\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\UnityEngine.TilemapModule.dll
+C:\Users\villo\Downloads\QUIETMENU STUFF\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\UnityEngine.TLSModule.dll
+C:\Users\villo\Downloads\QUIETMENU STUFF\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\UnityEngine.UI.dll
+C:\Users\villo\Downloads\QUIETMENU STUFF\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\UnityEngine.UIElementsModule.dll
+C:\Users\villo\Downloads\QUIETMENU STUFF\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\UnityEngine.UIModule.dll
+C:\Users\villo\Downloads\QUIETMENU STUFF\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\UnityEngine.UmbraModule.dll
+C:\Users\villo\Downloads\QUIETMENU STUFF\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\UnityEngine.UnityAnalyticsModule.dll
+C:\Users\villo\Downloads\QUIETMENU STUFF\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\UnityEngine.UnityConnectModule.dll
+C:\Users\villo\Downloads\QUIETMENU STUFF\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\UnityEngine.UnityTestProtocolModule.dll
+C:\Users\villo\Downloads\QUIETMENU STUFF\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\UnityEngine.UnityWebRequestAssetBundleModule.dll
+C:\Users\villo\Downloads\QUIETMENU STUFF\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\UnityEngine.UnityWebRequestAudioModule.dll
+C:\Users\villo\Downloads\QUIETMENU STUFF\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\UnityEngine.UnityWebRequestModule.dll
+C:\Users\villo\Downloads\QUIETMENU STUFF\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\UnityEngine.UnityWebRequestTextureModule.dll
+C:\Users\villo\Downloads\QUIETMENU STUFF\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\UnityEngine.UnityWebRequestWWWModule.dll
+C:\Users\villo\Downloads\QUIETMENU STUFF\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\UnityEngine.VehiclesModule.dll
+C:\Users\villo\Downloads\QUIETMENU STUFF\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\UnityEngine.VFXModule.dll
+C:\Users\villo\Downloads\QUIETMENU STUFF\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\UnityEngine.VideoModule.dll
+C:\Users\villo\Downloads\QUIETMENU STUFF\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\UnityEngine.VRModule.dll
+C:\Users\villo\Downloads\QUIETMENU STUFF\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\UnityEngine.WindModule.dll
+C:\Users\villo\Downloads\QUIETMENU STUFF\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\UnityEngine.XR.LegacyInputHelpers.dll
+C:\Users\villo\Downloads\QUIETMENU STUFF\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\UnityEngine.XRModule.dll
+C:\Users\villo\Downloads\QUIETMENU STUFF\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\Utilla.dll
+C:\Users\villo\Downloads\QUIETMENU STUFF\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\websocket-sharp.dll
+C:\Users\villo\Downloads\QUIETMENU STUFF\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\Mono.Cecil.dll
+C:\Users\villo\Downloads\QUIETMENU STUFF\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\MonoMod.Utils.dll
+C:\Users\villo\Downloads\QUIETMENU STUFF\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\MonoMod.RuntimeDetour.dll
+C:\Users\villo\Downloads\QUIETMENU STUFF\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\AstarPathfindingProject.dll
+C:\Users\villo\Downloads\QUIETMENU STUFF\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\Sirenix.OdinInspector.Attributes.dll
+C:\Users\villo\Downloads\QUIETMENU STUFF\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\Fusion.Runtime.dll
+C:\Users\villo\Downloads\QUIETMENU STUFF\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\Fusion.Sockets.dll
+C:\Users\villo\Downloads\QUIETMENU STUFF\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\Fusion.Realtime.dll
+C:\Users\villo\Downloads\QUIETMENU STUFF\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\PhotonVoice.Fusion.dll
+C:\Users\villo\Downloads\QUIETMENU STUFF\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\Unity.TextMeshPro.dll
+C:\Users\villo\Downloads\QUIETMENU STUFF\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\Fusion.Common.dll
+C:\Users\villo\Downloads\QUIETMENU STUFF\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\Backtrace.Unity.dll
+C:\Users\villo\Downloads\QUIETMENU STUFF\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\AA.Mothership.dll
+C:\Users\villo\Downloads\QUIETMENU STUFF\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\Unity.RenderPipelines.Core.Runtime.dll
+C:\Users\villo\Downloads\QUIETMENU STUFF\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\SteamVR_Actions.dll
+C:\Users\villo\Downloads\QUIETMENU STUFF\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\SteamVR.dll
+C:\Users\villo\Downloads\QUIETMENU STUFF\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\VoiceSDK.Runtime.dll
+C:\Users\villo\Downloads\QUIETMENU STUFF\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\ZString.dll
+C:\Users\villo\Downloads\QUIETMENU STUFF\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\Newtonsoft.Json.dll
+C:\Users\villo\Downloads\QUIETMENU STUFF\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\Unity.Collections.dll
+C:\Users\villo\Downloads\QUIETMENU STUFF\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\Unity.RenderPipelines.Universal.Runtime.dll
+C:\Users\villo\Downloads\QUIETMENU STUFF\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\Unity.XR.CoreUtils.dll
+C:\Users\villo\Downloads\QUIETMENU STUFF\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\UnityEngine.UnityCurlModule.dll
+C:\Users\villo\Downloads\QUIETMENU STUFF\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\UnityEngine.ContentLoadModule.dll
+C:\Users\villo\Downloads\QUIETMENU STUFF\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\UnityEngine.PropertiesModule.dll
+C:\Users\villo\Downloads\QUIETMENU STUFF\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\UnityEngine.UnityAnalyticsCommonModule.dll
+C:\Users\villo\Downloads\QUIETMENU STUFF\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\UnityEngine.NVIDIAModule.dll
+C:\Users\villo\Downloads\QUIETMENU STUFF\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\UnityEngine.VirtualTexturingModule.dll
+C:\Users\villo\Downloads\QUIETMENU STUFF\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\UnityEngine.TextCoreFontEngineModule.dll
+C:\Users\villo\Downloads\QUIETMENU STUFF\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\UnityEngine.TextCoreTextEngineModule.dll
+C:\Users\villo\Downloads\QUIETMENU STUFF\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\Pathfinding.Ionic.Zip.Reduced.dll
+C:\Users\villo\Downloads\QUIETMENU STUFF\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\Pathfinding.ClipperLib.dll
+C:\Users\villo\Downloads\QUIETMENU STUFF\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\Pathfinding.Poly2Tri.dll
+C:\Users\villo\Downloads\QUIETMENU STUFF\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\NanoSockets.dll
+C:\Users\villo\Downloads\QUIETMENU STUFF\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\Unity.XR.OpenVR.dll
+C:\Users\villo\Downloads\QUIETMENU STUFF\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\Valve.Newtonsoft.Json.dll
+C:\Users\villo\Downloads\QUIETMENU STUFF\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\Meta.WitAi.dll
+C:\Users\villo\Downloads\QUIETMENU STUFF\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\AssistantCoreSDKRuntime.dll
+C:\Users\villo\Downloads\QUIETMENU STUFF\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\Meta.WitAi.Lib.dll
+C:\Users\villo\Downloads\QUIETMENU STUFF\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\Meta.WitAi.TTS.dll
+C:\Users\villo\Downloads\QUIETMENU STUFF\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\villo\Downloads\QUIETMENU STUFF\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\Unity.Collections.LowLevel.ILSupport.dll
+C:\Users\villo\Downloads\QUIETMENU STUFF\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+C:\Users\villo\Downloads\QUIETMENU STUFF\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\Unity.XR.Management.dll
+C:\Users\villo\Downloads\QUIETMENU STUFF\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\Meta.VoiceSDK.Mic.Common.dll
+C:\Users\villo\Downloads\QUIETMENU STUFF\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\Meta.WitAi.Conduit.dll
+C:\Users\villo\Downloads\QUIETMENU STUFF\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\Meta.VoiceSDK.Mic.Other.dll
+C:\Users\villo\Downloads\QUIETMENU STUFF\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\0Harmony.xml
+C:\Users\villo\Downloads\QUIETMENU STUFF\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\BepInEx.xml
+C:\Users\villo\Downloads\QUIETMENU STUFF\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\BepInEx.Harmony.xml
+C:\Users\villo\Downloads\QUIETMENU STUFF\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\MonoMod.Utils.xml
+C:\Users\villo\Downloads\QUIETMENU STUFF\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\MonoMod.RuntimeDetour.xml
+C:\Users\villo\Downloads\QUIETMENU STUFF\lost_the_money_in_my_bank_account\testplate\obj\Debug\netstandard2.1\StupidTemplate.csproj.AssemblyReference.cache
+C:\Users\villo\Downloads\QUIETMENU STUFF\lost_the_money_in_my_bank_account\testplate\obj\Debug\netstandard2.1\StupidTemplate.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\villo\Downloads\QUIETMENU STUFF\lost_the_money_in_my_bank_account\testplate\obj\Debug\netstandard2.1\StupidTemplate.AssemblyInfoInputs.cache
+C:\Users\villo\Downloads\QUIETMENU STUFF\lost_the_money_in_my_bank_account\testplate\obj\Debug\netstandard2.1\StupidTemplate.AssemblyInfo.cs
+C:\Users\villo\Downloads\QUIETMENU STUFF\lost_the_money_in_my_bank_account\testplate\obj\Debug\netstandard2.1\StupidTemplate.csproj.CoreCompileInputs.cache
+C:\Users\villo\Downloads\QUIETMENU STUFF\lost_the_money_in_my_bank_account\testplate\obj\Debug\netstandard2.1\StupidTe.F5B94829.Up2Date
+C:\Users\villo\Downloads\QUIETMENU STUFF\lost_the_money_in_my_bank_account\testplate\obj\Debug\netstandard2.1\WackyMenu.dll
+C:\Users\villo\Downloads\QUIETMENU STUFF\lost_the_money_in_my_bank_account\testplate\obj\Debug\netstandard2.1\WackyMenu.pdb
+C:\Users\Obsidian\Downloads\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\WackyMenu.deps.json
+C:\Users\Obsidian\Downloads\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\WackyMenu.dll
+C:\Users\Obsidian\Downloads\lost_the_money_in_my_bank_account\testplate\bin\Debug\netstandard2.1\WackyMenu.pdb
+C:\Users\Obsidian\Downloads\lost_the_money_in_my_bank_account\testplate\obj\Debug\netstandard2.1\WackyMenu.dll
+C:\Users\Obsidian\Downloads\lost_the_money_in_my_bank_account\testplate\obj\Debug\netstandard2.1\WackyMenu.pdb
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\WackyMenu.deps.json
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\WackyMenu.dll
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\WackyMenu.pdb
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\0Harmony.dll
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\Assembly-CSharp-firstpass.dll
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\Assembly-CSharp.dll
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\BakeryRuntimeAssembly.dll
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\BepInEx.dll
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\BepInEx.Harmony.dll
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\Cinemachine.dll
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\Oculus.Platform.dll
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\Oculus.VR.dll
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\Photon3Unity3D.dll
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\PhotonRealtime.dll
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\PhotonUnityNetworking.dll
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\PhotonUnityNetworking.Utilities.dll
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\PhotonVoice.API.dll
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\PhotonVoice.dll
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\PhotonVoice.PUN.dll
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\PlayFab.dll
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\Unity.Animation.Rigging.dll
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\Unity.Burst.dll
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\Unity.Burst.Unsafe.dll
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\Unity.InputSystem.dll
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\Unity.Mathematics.dll
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\Unity.Timeline.dll
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\Unity.XR.Interaction.Toolkit.dll
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\UnityEngine.AccessibilityModule.dll
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\UnityEngine.AIModule.dll
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\UnityEngine.AndroidJNIModule.dll
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\UnityEngine.AnimationModule.dll
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\UnityEngine.ARModule.dll
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\UnityEngine.AssetBundleModule.dll
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\UnityEngine.AudioModule.dll
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\UnityEngine.ClothModule.dll
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\UnityEngine.ClusterInputModule.dll
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\UnityEngine.ClusterRendererModule.dll
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\UnityEngine.CoreModule.dll
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\UnityEngine.CrashReportingModule.dll
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\UnityEngine.DirectorModule.dll
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\UnityEngine.dll
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\UnityEngine.DSPGraphModule.dll
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\UnityEngine.GameCenterModule.dll
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\UnityEngine.GridModule.dll
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\UnityEngine.HotReloadModule.dll
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\UnityEngine.ImageConversionModule.dll
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\UnityEngine.IMGUIModule.dll
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\UnityEngine.InputLegacyModule.dll
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\UnityEngine.InputModule.dll
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\UnityEngine.JSONSerializeModule.dll
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\UnityEngine.LocalizationModule.dll
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\UnityEngine.ParticleSystemModule.dll
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\UnityEngine.PerformanceReportingModule.dll
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\UnityEngine.Physics2DModule.dll
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\UnityEngine.PhysicsModule.dll
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\UnityEngine.ProfilerModule.dll
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\UnityEngine.ScreenCaptureModule.dll
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\UnityEngine.SharedInternalsModule.dll
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\UnityEngine.SpatialTracking.dll
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\UnityEngine.SpriteMaskModule.dll
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\UnityEngine.SpriteShapeModule.dll
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\UnityEngine.StreamingModule.dll
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\UnityEngine.SubstanceModule.dll
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\UnityEngine.SubsystemsModule.dll
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\UnityEngine.TerrainModule.dll
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\UnityEngine.TerrainPhysicsModule.dll
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\UnityEngine.TextRenderingModule.dll
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\UnityEngine.TilemapModule.dll
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\UnityEngine.TLSModule.dll
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\UnityEngine.UI.dll
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\UnityEngine.UIElementsModule.dll
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\UnityEngine.UIModule.dll
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\UnityEngine.UmbraModule.dll
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\UnityEngine.UnityAnalyticsModule.dll
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\UnityEngine.UnityConnectModule.dll
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\UnityEngine.UnityTestProtocolModule.dll
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\UnityEngine.UnityWebRequestAssetBundleModule.dll
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\UnityEngine.UnityWebRequestAudioModule.dll
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\UnityEngine.UnityWebRequestModule.dll
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\UnityEngine.UnityWebRequestTextureModule.dll
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\UnityEngine.UnityWebRequestWWWModule.dll
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\UnityEngine.VehiclesModule.dll
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\UnityEngine.VFXModule.dll
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\UnityEngine.VideoModule.dll
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\UnityEngine.VRModule.dll
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\UnityEngine.WindModule.dll
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\UnityEngine.XR.LegacyInputHelpers.dll
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\UnityEngine.XRModule.dll
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\Utilla.dll
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\websocket-sharp.dll
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\Mono.Cecil.dll
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\MonoMod.Utils.dll
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\MonoMod.RuntimeDetour.dll
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\AstarPathfindingProject.dll
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\Sirenix.OdinInspector.Attributes.dll
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\Fusion.Runtime.dll
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\Fusion.Sockets.dll
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\Fusion.Realtime.dll
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\PhotonVoice.Fusion.dll
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\Unity.TextMeshPro.dll
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\Fusion.Common.dll
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\AA.Mothership.dll
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\Backtrace.Unity.dll
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\Unity.RenderPipelines.Core.Runtime.dll
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\SteamVR_Actions.dll
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\SteamVR.dll
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\VoiceSDK.Runtime.dll
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\ZString.dll
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\Unity.Collections.dll
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\Unity.RenderPipelines.Universal.Runtime.dll
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\Unity.XR.CoreUtils.dll
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\UnityEngine.UnityCurlModule.dll
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\UnityEngine.ContentLoadModule.dll
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\UnityEngine.PropertiesModule.dll
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\UnityEngine.UnityAnalyticsCommonModule.dll
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\UnityEngine.NVIDIAModule.dll
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\UnityEngine.VirtualTexturingModule.dll
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\UnityEngine.TextCoreFontEngineModule.dll
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\UnityEngine.TextCoreTextEngineModule.dll
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\Pathfinding.Ionic.Zip.Reduced.dll
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\Pathfinding.ClipperLib.dll
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\Pathfinding.Poly2Tri.dll
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\NanoSockets.dll
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\Valve.Newtonsoft.Json.dll
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\Meta.WitAi.dll
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\AssistantCoreSDKRuntime.dll
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\Meta.WitAi.Lib.dll
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\Meta.WitAi.TTS.dll
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\Unity.Collections.LowLevel.ILSupport.dll
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\Unity.XR.Management.dll
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\Meta.VoiceSDK.Mic.Common.dll
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\Meta.WitAi.Conduit.dll
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\Meta.VoiceSDK.Mic.Other.dll
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\0Harmony.xml
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\BepInEx.xml
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\BepInEx.Harmony.xml
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\MonoMod.Utils.xml
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\MonoMod.RuntimeDetour.xml
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\obj\Debug\netstandard2.1\StupidTemplate.csproj.AssemblyReference.cache
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\obj\Debug\netstandard2.1\StupidTemplate.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\obj\Debug\netstandard2.1\StupidTemplate.AssemblyInfoInputs.cache
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\obj\Debug\netstandard2.1\StupidTemplate.AssemblyInfo.cs
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\obj\Debug\netstandard2.1\StupidTemplate.csproj.CoreCompileInputs.cache
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\obj\Debug\netstandard2.1\StupidTemplate.csproj.CopyComplete
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\obj\Debug\netstandard2.1\WackyMenu.dll
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\obj\Debug\netstandard2.1\WackyMenu.pdb
+C:\Users\villo\Downloads\Dark Matter\testplate\obj\Debug\netstandard2.1\StupidTemplate.csproj.AssemblyReference.cache
+C:\Users\villo\Downloads\Dark Matter\testplate\obj\Debug\netstandard2.1\StupidTemplate.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\villo\Downloads\Dark Matter\testplate\obj\Debug\netstandard2.1\StupidTemplate.AssemblyInfoInputs.cache
+C:\Users\villo\Downloads\Dark Matter\testplate\obj\Debug\netstandard2.1\StupidTemplate.AssemblyInfo.cs
+C:\Users\villo\Downloads\Dark Matter\testplate\obj\Debug\netstandard2.1\StupidTemplate.csproj.CoreCompileInputs.cache
+C:\Users\villo\Downloads\Dark Matter\testplate\obj\Debug\netstandard2.1\WackyMenu.dll
+C:\Users\villo\Downloads\Dark Matter\testplate\obj\Debug\netstandard2.1\WackyMenu.pdb
+C:\Users\villo\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\WackyMenu.deps.json
+C:\Users\villo\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\WackyMenu.dll
+C:\Users\villo\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\WackyMenu.pdb
+C:\Users\villo\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\0Harmony.dll
+C:\Users\villo\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\AA.Mothership.dll
+C:\Users\villo\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\andywiecko.BurstTriangulator.dll
+C:\Users\villo\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\Assembly-CSharp-firstpass.dll
+C:\Users\villo\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\Assembly-CSharp.dll
+C:\Users\villo\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\AssistantCoreSDKRuntime.dll
+C:\Users\villo\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\AstarPathfindingProject.dll
+C:\Users\villo\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\Autodesk.Fbx.dll
+C:\Users\villo\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\Backtrace.Unity.dll
+C:\Users\villo\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\BakeryRuntimeAssembly.dll
+C:\Users\villo\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\BepInEx.dll
+C:\Users\villo\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\BepInEx.Harmony.dll
+C:\Users\villo\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\BepInEx.Preloader.dll
+C:\Users\villo\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\Cinemachine.dll
+C:\Users\villo\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\Facebook.Wit.Dictation.dll
+C:\Users\villo\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\FbxBuildTestAssets.dll
+C:\Users\villo\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\Fusion.Addressables.dll
+C:\Users\villo\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\Fusion.Common.dll
+C:\Users\villo\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\Fusion.Realtime.dll
+C:\Users\villo\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\Fusion.Runtime.dll
+C:\Users\villo\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\Fusion.Sockets.dll
+C:\Users\villo\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\geometry3Sharp.dll
+C:\Users\villo\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\HarmonyXInterop.dll
+C:\Users\villo\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\MeshBakerCore.dll
+C:\Users\villo\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\Meta.Voice.Hub.Runtime.dll
+C:\Users\villo\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\Meta.Voice.Samples.BuiltInTimer.dll
+C:\Users\villo\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\Meta.Voice.Samples.Chess.dll
+C:\Users\villo\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\Meta.Voice.Samples.Dictation.dll
+C:\Users\villo\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\Meta.Voice.Samples.LightTraits.dll
+C:\Users\villo\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\Meta.Voice.Samples.LiveUnderstanding.dll
+C:\Users\villo\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\Meta.Voice.Samples.Shapes.dll
+C:\Users\villo\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\Meta.Voice.Samples.ShapesConduit.dll
+C:\Users\villo\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\Meta.Voice.Samples.TTSVoices.dll
+C:\Users\villo\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\Meta.VoiceSDK.Mic.Common.dll
+C:\Users\villo\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\Meta.VoiceSDK.Mic.Other.dll
+C:\Users\villo\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\Meta.WitAi.Conduit.dll
+C:\Users\villo\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\Meta.WitAi.dll
+C:\Users\villo\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\Meta.WitAi.Lib.dll
+C:\Users\villo\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\Meta.WitAi.TTS.dll
+C:\Users\villo\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\Meta.XR.BuildingBlocks.dll
+C:\Users\villo\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\Mono.Cecil.dll
+C:\Users\villo\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\Mono.Cecil.Mdb.dll
+C:\Users\villo\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\Mono.Cecil.Pdb.dll
+C:\Users\villo\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\Mono.Cecil.Rocks.dll
+C:\Users\villo\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\MonoMod.RuntimeDetour.dll
+C:\Users\villo\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\MonoMod.Utils.dll
+C:\Users\villo\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\NanoSockets.dll
+C:\Users\villo\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\NavMeshComponents.dll
+C:\Users\villo\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\Oculus.AudioManager.dll
+C:\Users\villo\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\Oculus.Interaction.dll
+C:\Users\villo\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\Oculus.Interaction.OVR.dll
+C:\Users\villo\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\Oculus.Interaction.OVR.Samples.dll
+C:\Users\villo\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\Oculus.LipSync.dll
+C:\Users\villo\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\Oculus.Platform.dll
+C:\Users\villo\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\Oculus.Spatializer.dll
+C:\Users\villo\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\Oculus.VR.dll
+C:\Users\villo\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\Pathfinding.ClipperLib.dll
+C:\Users\villo\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\Pathfinding.Ionic.Zip.Reduced.dll
+C:\Users\villo\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\Pathfinding.Poly2Tri.dll
+C:\Users\villo\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\Photon3Unity3D.dll
+C:\Users\villo\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\PhotonChat.dll
+C:\Users\villo\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\PhotonRealtime.dll
+C:\Users\villo\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\PhotonUnityNetworking.dll
+C:\Users\villo\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\PhotonUnityNetworking.Utilities.dll
+C:\Users\villo\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\PhotonVoice.API.dll
+C:\Users\villo\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\PhotonVoice.dll
+C:\Users\villo\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\PhotonVoice.Fusion.dll
+C:\Users\villo\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\PhotonVoice.PUN.dll
+C:\Users\villo\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\PlayFab.dll
+C:\Users\villo\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\Sirenix.OdinInspector.Attributes.dll
+C:\Users\villo\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\Sirenix.OdinInspector.Modules.Unity.Addressables.dll
+C:\Users\villo\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\SteamVR.dll
+C:\Users\villo\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\SteamVR_Actions.dll
+C:\Users\villo\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\TechniePhysicsCreator.dll
+C:\Users\villo\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\Unity.Addressables.dll
+C:\Users\villo\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\Unity.AI.Navigation.dll
+C:\Users\villo\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\Unity.Animation.Rigging.dll
+C:\Users\villo\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\Unity.Animation.Rigging.DocCodeExamples.dll
+C:\Users\villo\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\Unity.Burst.dll
+C:\Users\villo\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\Unity.Burst.Unsafe.dll
+C:\Users\villo\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\Unity.Collections.dll
+C:\Users\villo\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\Unity.Collections.LowLevel.ILSupport.dll
+C:\Users\villo\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\Unity.Formats.Fbx.Runtime.dll
+C:\Users\villo\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\Unity.InputSystem.dll
+C:\Users\villo\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\Unity.InputSystem.ForUI.dll
+C:\Users\villo\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\Unity.Mathematics.dll
+C:\Users\villo\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\Unity.ProBuilder.Csg.dll
+C:\Users\villo\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\Unity.ProBuilder.dll
+C:\Users\villo\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\Unity.ProBuilder.KdTree.dll
+C:\Users\villo\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\Unity.ProBuilder.Poly2Tri.dll
+C:\Users\villo\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\Unity.ProBuilder.Stl.dll
+C:\Users\villo\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+C:\Users\villo\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\Unity.RenderPipelines.Core.Runtime.dll
+C:\Users\villo\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\Unity.RenderPipelines.Core.ShaderLibrary.dll
+C:\Users\villo\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+C:\Users\villo\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\Unity.RenderPipelines.Universal.Runtime.dll
+C:\Users\villo\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\Unity.RenderPipelines.Universal.Shaders.dll
+C:\Users\villo\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\Unity.ResourceManager.dll
+C:\Users\villo\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\Unity.ScriptableBuildPipeline.dll
+C:\Users\villo\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\Unity.TextMeshPro.dll
+C:\Users\villo\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\Unity.Timeline.dll
+C:\Users\villo\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\Unity.XR.CoreUtils.dll
+C:\Users\villo\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\Unity.XR.Interaction.Toolkit.dll
+C:\Users\villo\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\Unity.XR.Management.dll
+C:\Users\villo\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\Unity.XR.Oculus.dll
+C:\Users\villo\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\UnityEngine.AccessibilityModule.dll
+C:\Users\villo\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\UnityEngine.AIModule.dll
+C:\Users\villo\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\UnityEngine.AndroidJNIModule.dll
+C:\Users\villo\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\UnityEngine.AnimationModule.dll
+C:\Users\villo\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\UnityEngine.ARModule.dll
+C:\Users\villo\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\UnityEngine.AssetBundleModule.dll
+C:\Users\villo\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\UnityEngine.AudioModule.dll
+C:\Users\villo\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\UnityEngine.ClothModule.dll
+C:\Users\villo\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\UnityEngine.ClusterInputModule.dll
+C:\Users\villo\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\UnityEngine.ClusterRendererModule.dll
+C:\Users\villo\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\UnityEngine.ContentLoadModule.dll
+C:\Users\villo\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\UnityEngine.CoreModule.dll
+C:\Users\villo\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\UnityEngine.CrashReportingModule.dll
+C:\Users\villo\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\UnityEngine.DirectorModule.dll
+C:\Users\villo\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\UnityEngine.dll
+C:\Users\villo\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\UnityEngine.DSPGraphModule.dll
+C:\Users\villo\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\UnityEngine.GameCenterModule.dll
+C:\Users\villo\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\UnityEngine.GIModule.dll
+C:\Users\villo\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\UnityEngine.GridModule.dll
+C:\Users\villo\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\UnityEngine.HotReloadModule.dll
+C:\Users\villo\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\UnityEngine.ImageConversionModule.dll
+C:\Users\villo\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\UnityEngine.IMGUIModule.dll
+C:\Users\villo\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\UnityEngine.InputLegacyModule.dll
+C:\Users\villo\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\UnityEngine.InputModule.dll
+C:\Users\villo\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\UnityEngine.JSONSerializeModule.dll
+C:\Users\villo\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\UnityEngine.LocalizationModule.dll
+C:\Users\villo\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\UnityEngine.NVIDIAModule.dll
+C:\Users\villo\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\UnityEngine.ParticleSystemModule.dll
+C:\Users\villo\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\UnityEngine.PerformanceReportingModule.dll
+C:\Users\villo\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\UnityEngine.Physics2DModule.dll
+C:\Users\villo\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\UnityEngine.PhysicsModule.dll
+C:\Users\villo\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\UnityEngine.ProfilerModule.dll
+C:\Users\villo\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\UnityEngine.PropertiesModule.dll
+C:\Users\villo\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll
+C:\Users\villo\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\UnityEngine.ScreenCaptureModule.dll
+C:\Users\villo\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\UnityEngine.SharedInternalsModule.dll
+C:\Users\villo\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\UnityEngine.SpatialTracking.dll
+C:\Users\villo\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\UnityEngine.SpriteMaskModule.dll
+C:\Users\villo\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\UnityEngine.SpriteShapeModule.dll
+C:\Users\villo\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\UnityEngine.StreamingModule.dll
+C:\Users\villo\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\UnityEngine.SubstanceModule.dll
+C:\Users\villo\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\UnityEngine.SubsystemsModule.dll
+C:\Users\villo\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\UnityEngine.TerrainModule.dll
+C:\Users\villo\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\UnityEngine.TerrainPhysicsModule.dll
+C:\Users\villo\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\UnityEngine.TextCoreFontEngineModule.dll
+C:\Users\villo\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\UnityEngine.TextCoreTextEngineModule.dll
+C:\Users\villo\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\UnityEngine.TextRenderingModule.dll
+C:\Users\villo\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\UnityEngine.TilemapModule.dll
+C:\Users\villo\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\UnityEngine.TLSModule.dll
+C:\Users\villo\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\UnityEngine.UI.dll
+C:\Users\villo\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\UnityEngine.UIElementsModule.dll
+C:\Users\villo\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\UnityEngine.UIModule.dll
+C:\Users\villo\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\UnityEngine.UmbraModule.dll
+C:\Users\villo\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\UnityEngine.UnityAnalyticsCommonModule.dll
+C:\Users\villo\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\UnityEngine.UnityAnalyticsModule.dll
+C:\Users\villo\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\UnityEngine.UnityConnectModule.dll
+C:\Users\villo\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\UnityEngine.UnityCurlModule.dll
+C:\Users\villo\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\UnityEngine.UnityTestProtocolModule.dll
+C:\Users\villo\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\UnityEngine.UnityWebRequestAssetBundleModule.dll
+C:\Users\villo\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\UnityEngine.UnityWebRequestAudioModule.dll
+C:\Users\villo\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\UnityEngine.UnityWebRequestModule.dll
+C:\Users\villo\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\UnityEngine.UnityWebRequestTextureModule.dll
+C:\Users\villo\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\UnityEngine.UnityWebRequestWWWModule.dll
+C:\Users\villo\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\UnityEngine.VehiclesModule.dll
+C:\Users\villo\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\UnityEngine.VFXModule.dll
+C:\Users\villo\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\UnityEngine.VideoModule.dll
+C:\Users\villo\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\UnityEngine.VirtualTexturingModule.dll
+C:\Users\villo\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\UnityEngine.VRModule.dll
+C:\Users\villo\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\UnityEngine.WindModule.dll
+C:\Users\villo\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\UnityEngine.XR.LegacyInputHelpers.dll
+C:\Users\villo\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\UnityEngine.XRModule.dll
+C:\Users\villo\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\Utilla.dll
+C:\Users\villo\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\Valve.Newtonsoft.Json.dll
+C:\Users\villo\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\VoiceSDK.Dictation.Runtime.dll
+C:\Users\villo\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\VoiceSDK.Runtime.dll
+C:\Users\villo\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\VYaml.Core.dll
+C:\Users\villo\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\websocket-sharp.dll
+C:\Users\villo\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\ZString.dll
+C:\Users\villo\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\villo\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\0Harmony.xml
+C:\Users\villo\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\BepInEx.xml
+C:\Users\villo\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\BepInEx.Harmony.xml
+C:\Users\villo\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\BepInEx.Preloader.xml
+C:\Users\villo\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\MonoMod.RuntimeDetour.xml
+C:\Users\villo\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\MonoMod.Utils.xml
+C:\Users\villo\Downloads\Dark Matter\testplate\obj\Debug\netstandard2.1\StupidTemplate.csproj.CopyComplete
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\andywiecko.BurstTriangulator.dll
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\Autodesk.Fbx.dll
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\BepInEx.Preloader.dll
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\Facebook.Wit.Dictation.dll
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\FbxBuildTestAssets.dll
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\Fusion.Addressables.dll
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\geometry3Sharp.dll
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\HarmonyXInterop.dll
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\MeshBakerCore.dll
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\Meta.Voice.Hub.Runtime.dll
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\Meta.Voice.Samples.BuiltInTimer.dll
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\Meta.Voice.Samples.Chess.dll
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\Meta.Voice.Samples.Dictation.dll
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\Meta.Voice.Samples.LightTraits.dll
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\Meta.Voice.Samples.LiveUnderstanding.dll
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\Meta.Voice.Samples.Shapes.dll
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\Meta.Voice.Samples.ShapesConduit.dll
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\Meta.Voice.Samples.TTSVoices.dll
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\Meta.XR.BuildingBlocks.dll
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\Mono.Cecil.Mdb.dll
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\Mono.Cecil.Pdb.dll
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\Mono.Cecil.Rocks.dll
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\NavMeshComponents.dll
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\Oculus.AudioManager.dll
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\Oculus.Interaction.dll
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\Oculus.Interaction.OVR.dll
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\Oculus.Interaction.OVR.Samples.dll
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\Oculus.LipSync.dll
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\Oculus.Spatializer.dll
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\PhotonChat.dll
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\Sirenix.OdinInspector.Modules.Unity.Addressables.dll
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\TechniePhysicsCreator.dll
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\Unity.Addressables.dll
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\Unity.AI.Navigation.dll
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\Unity.Animation.Rigging.DocCodeExamples.dll
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\Unity.Formats.Fbx.Runtime.dll
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\Unity.InputSystem.ForUI.dll
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\Unity.ProBuilder.Csg.dll
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\Unity.ProBuilder.dll
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\Unity.ProBuilder.KdTree.dll
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\Unity.ProBuilder.Poly2Tri.dll
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\Unity.ProBuilder.Stl.dll
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\Unity.RenderPipelines.Core.ShaderLibrary.dll
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\Unity.RenderPipelines.Universal.Shaders.dll
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\Unity.ResourceManager.dll
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\Unity.ScriptableBuildPipeline.dll
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\Unity.XR.Oculus.dll
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\UnityEngine.GIModule.dll
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\VoiceSDK.Dictation.Runtime.dll
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\VYaml.Core.dll
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\BepInEx.Preloader.xml
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\KID.dll
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\Mono.Security.dll
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\Newtonsoft.Json.UnityConverters.Addressables.dll
+C:\Users\Obsidian\Downloads\Dark Matter\testplate\bin\Debug\netstandard2.1\Newtonsoft.Json.UnityConverters.dll

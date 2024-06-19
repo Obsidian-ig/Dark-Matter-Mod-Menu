@@ -1,0 +1,21 @@
+- Doug Orbit Self & Other
+- Matt orbit Self & Other
+- Doug Halo Self & other
+- Matt Halo Self & Other
+- Rig Orbit Self & Other
+- Rig Halo Self & Other
+
+- Spawn Platform Stairway (Spawn a stairway were the pointer is with platforms)
+- Trap Doug (Places Invis Platforms around doug)
+- Trap Matt (Places Invis Platforms around matt)
+- Orbit Balloons Self & Others
+- Halo Balloons Self & Others
+-C4
+-Animation Mods
+-Add custom gun gameobject
+-Fix Rig Gun (Make it less buggy)
+-Swim Everywhere
+-Glider Fly Everywhere
+-Big Gliders
+-Lag Gun
+-Crash Gun
