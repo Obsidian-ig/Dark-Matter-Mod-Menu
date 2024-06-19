@@ -154,14 +154,13 @@ namespace StupidTemplate.Mods
                         pointer.GetComponent<Renderer>().material.color = UnityEngine.Color.HSVToRGB(Main.h, 1f, 1f);
                         Main.plrToLockOn = Ray.collider.GetComponentInParent<VRRig>();
                         Main.floatPlayerGunLocked = true;
-                        float monsDistance = 0.065f;
                         Vector3 anchor = Ray.collider.GetComponentInParent<VRRig>().transform.position + new Vector3(0f, -0.375f, 0f);
                         Vector3[] positions = new Vector3[]
                         {
-                            anchor + new Vector3(0f, 0f, monsDistance),
-                            anchor - new Vector3(0f, 0f, monsDistance),
-                            anchor + new Vector3(monsDistance, 0f, 0f),
-                            anchor - new Vector3(monsDistance, 0f, 0f),
+                            anchor + new Vector3(0f, 0f, 0.0625f),
+                            anchor - new Vector3(0f, 0f, 0.0625f),
+                            anchor + new Vector3(0.0625f, 0f, 0f),
+                            anchor - new Vector3(0.0625, 0f, 0f),
                         };
                         int i = 0;
                         foreach (MonkeyeAI monkeyeAI in GameObject.FindObjectsOfType<MonkeyeAI>())
