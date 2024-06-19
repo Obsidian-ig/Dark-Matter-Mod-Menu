@@ -31,90 +31,7 @@ namespace StupidTemplate.Mods
 
 
 
-        public static void Goto()
-        {
-            ChangeName("goto");
-        }
-
-        public static void Invis()
-        {
-            ChangeName("invis");
-        }
-
-        public static void Ghost()
-        {
-            ChangeName("ghost");
-        }
-
-        public static void ObsidianDev()
-        {
-            ChangeName("ObsidianDev");
-        }
-
-        public static void ChangeIdentity()
-        {
-            ChangeName(PhotonNetwork.PlayerList[UnityEngine.Random.Range(0, PhotonNetwork.PlayerList.Length)].NickName);
-            
-        }
-
-        public static void ChangeName(string PlayerName)
-        {
-            try
-            {
-                if (PhotonNetwork.InRoom)
-                {
-                    Vector3 originPos = GorillaLocomotion.Player.Instance.transform.position;
-                    GorillaTagger.Instance.offlineVRRig.enabled = false;
-                    GorillaTagger.Instance.offlineVRRig.transform.position = GorillaComputer.instance.transform.position;
-                    try
-                    {
-                        GorillaTagger.Instance.myVRRig.transform.position = GorillaComputer.instance.transform.position;
-                    }
-                    catch (Exception) { }
-                    foreach (MeshCollider col in UnityEngine.Object.FindObjectsOfType<MeshCollider>())
-                    {
-                        col.enabled = false;
-                    }
-                    GorillaLocomotion.Player.Instance.transform.position = GorillaComputer.instance.transform.position;
-                    if (GorillaComputer.instance.friendJoinCollider.playerIDsCurrentlyTouching.Contains(PhotonNetwork.LocalPlayer.UserId))
-                    {
-                        GorillaComputer.instance.currentName = PlayerName;
-                        PhotonNetwork.LocalPlayer.NickName = PlayerName;
-                        GorillaComputer.instance.offlineVRRigNametagText.text = PlayerName;
-                        GorillaComputer.instance.savedName = PlayerName;
-                        PlayerPrefs.SetString("playerName", PlayerName);
-                        PlayerPrefs.Save();
-                    }
-                    GorillaTagger.Instance.offlineVRRig.enabled = true;
-                    GorillaTagger.Instance.offlineVRRig.transform.position = originPos;
-                    try
-                    {
-                        GorillaTagger.Instance.myVRRig.transform.position = originPos;
-                    }
-                    catch (Exception) { }
-                    GorillaLocomotion.Player.Instance.transform.position = originPos;
-                    foreach (MeshCollider col in UnityEngine.Object.FindObjectsOfType<MeshCollider>())
-                    {
-                        col.enabled = true;
-                    }
-                }
-
-                else
-                {
-                    GorillaComputer.instance.currentName = PlayerName;
-                    PhotonNetwork.LocalPlayer.NickName = PlayerName;
-                    GorillaComputer.instance.offlineVRRigNametagText.text = PlayerName;
-                    GorillaComputer.instance.savedName = PlayerName;
-                    PlayerPrefs.SetString("playerName", PlayerName);
-                    PlayerPrefs.Save();
-                }
-            }
-            catch (Exception)
-            {
-               
-            }
-        }
-
+        
         public static void GrabMonsters()
         {
             if (Main.rightGrab)
@@ -154,15 +71,7 @@ namespace StupidTemplate.Mods
                         pointer.GetComponent<Renderer>().material.color = UnityEngine.Color.HSVToRGB(Main.h, 1f, 1f);
                         Main.plrToLockOn = Ray.collider.GetComponentInParent<VRRig>();
                         Main.floatPlayerGunLocked = true;
-                        Vector3 anchor = Ray.collider.GetComponentInParent<VRRig>().transform.position + new Vector3(0f, -0.375f, 0f);
-                        Vector3[] positions = new Vector3[]
-                        {
-                            anchor + new Vector3(0f, 0f, 0.0625f),
-                            anchor - new Vector3(0f, 0f, 0.0625f),
-                            anchor + new Vector3(0.0625f, 0f, 0f),
-                            anchor - new Vector3(0.0625, 0f, 0f),
-                        };
-                        int i = 0;
+
                         foreach (MonkeyeAI monkeyeAI in GameObject.FindObjectsOfType<MonkeyeAI>())
                         {
                             if (monkeyeAI.gameObject.GetComponent<PhotonView>().Owner == PhotonNetwork.LocalPlayer)
@@ -181,21 +90,13 @@ namespace StupidTemplate.Mods
 
                 if (Main.floatPlayerGunLocked && Main.plrToLockOn != null)
                 {
-                    float monsDistance = 0.065f;
-                    Vector3 anchor = Main.plrToLockOn.transform.position + new Vector3(0f, -0.375f, 0f);
-                    Vector3[] positions = new Vector3[]
-                    {
-                            anchor + new Vector3(0f, 0f, monsDistance),
-                            anchor - new Vector3(0f, 0f, monsDistance),
-                            anchor + new Vector3(monsDistance, 0f, 0f),
-                            anchor - new Vector3(monsDistance, 0f, 0f),
-                    };
-                    int i = 0;
+                    
+                    
                     foreach (MonkeyeAI monkeyeAI in GameObject.FindObjectsOfType<MonkeyeAI>())
                     {
                         if (monkeyeAI.gameObject.GetComponent<PhotonView>().Owner == PhotonNetwork.LocalPlayer)
                         {
-                            i++;
+                            
                             monkeyeAI.gameObject.transform.position = positions[i];
                         }
                         else
