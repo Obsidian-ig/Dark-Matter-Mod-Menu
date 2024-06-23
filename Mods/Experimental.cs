@@ -157,19 +157,7 @@ namespace StupidTemplate.Mods
             {
                 if (vrrig != GorillaTagger.Instance.myVRRig)
                 {
-                    Transform lHand = vrrig.rightHandTransform;
-                    Transform rHand = vrrig.rightHandTransform;
-
                     
-                    if (Vector3.Distance(lHand.transform.position, GorillaTagger.Instance.offlineVRRig.head.rigTarget.position) < 0.50f)
-                    {
-                        GorillaLocomotion.Player.Instance.GetComponent<Rigidbody>().velocity += Vector3.Normalize(vrrig.rightHandTransform.position - vrrig.rightHandTransform.position) * 13f;
-                    }
-
-                    if (Vector3.Distance(rHand.transform.position, GorillaTagger.Instance.offlineVRRig.head.rigTarget.position) < 0.50f)
-                    {
-                        GorillaLocomotion.Player.Instance.GetComponent<Rigidbody>().velocity += Vector3.Normalize(vrrig.rightHandTransform.position - vrrig.rightHandTransform.position) * 13f;
-                    }
                 }
             }
         }
