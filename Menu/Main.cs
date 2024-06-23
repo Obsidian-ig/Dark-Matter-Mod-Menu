@@ -18,6 +18,7 @@ using System.Threading.Tasks;
 using System.IO;
 using StupidTemplate.Mods;
 using ExitGames.Client.Photon;
+using GorillaNetworking;
 
 namespace StupidTemplate.Menu
 {
@@ -163,6 +164,17 @@ namespace StupidTemplate.Menu
                 }
 
                 // UPDATE VARIABLES
+
+                if (ghostRigActive)
+                {
+                    ghostRig.enabled = true;
+                    ghostRig.mainSkin.material.color = Color.HSVToRGB(h, 1f, 1f);
+                    ghostRig.transform.localPosition = new Vector3(0f, 0f, 0f);
+                } else
+                {
+                    ghostRig.enabled = false;
+                    ghostRig.transform.localPosition = new Vector3(999f, 999f, 999f);
+                }
 
                 if (!disableCustomBoards)
                 {
@@ -873,6 +885,7 @@ namespace StupidTemplate.Menu
         public static float originMattSpeed = GameObject.Find("Cave Bat Holdable").GetComponent<ThrowableBug>().maxNaturalSpeed;
         public static float originMattBobbingSpeed = GameObject.Find("Cave Bat Holdable").GetComponent<ThrowableBug>().bobingSpeed;
         public static float originDougBobMag = GameObject.Find("Floating Bug Holdable").GetComponent<ThrowableBug>().bobMagnintude;
+        public static float originMattBobMag = GameObject.Find("Cave Bat Holdable").GetComponent<ThrowableBug>().bobMagnintude;
 
         // PLATFORM SETTINGS
         public static GameObject Leftplat = null;
@@ -913,6 +926,9 @@ namespace StupidTemplate.Menu
         public static int maxTheme = 6;
 
         public static bool allowMenuSidedMods = true;
+
+        public static VRRig ghostRig = GameObject.Instantiate(GorillaTagger.Instance.offlineVRRig);
+        public static bool ghostRigActive = false;
 
         // TRAKKAR SHIT
         public static bool wasInRoom = false;
@@ -962,6 +978,7 @@ namespace StupidTemplate.Menu
         public static bool giveWaterGunLocked = false;
         public static bool giveRWaterSplashLocked = false;
         public static bool giveLWaterSplashLocked = false;
+        public static bool chasePlayerGunLocked = false;
 
         public static int soundId = 1;
         public static int surfaceId = 0;

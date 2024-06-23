@@ -108,6 +108,7 @@ namespace StupidTemplate.Mods
             doug.GetComponent<ThrowableBug>().maxNaturalSpeed = Main.originDougSpeed;
             doug.GetComponent<ThrowableBug>().bobingSpeed = Main.originDougBobbingSpeed;
             doug.GetComponent<ThrowableBug>().bobMagnintude = Main.originDougBobMag;
+            doug.GetComponent<ThrowableBug>().allowPlayerStealing = true;
         }
 
         
@@ -120,7 +121,9 @@ namespace StupidTemplate.Mods
         public static void SpazMatt()
         {
             GameObject doug = GameObject.Find("Floating Bug Holdable");
-            doug.GetComponent<ThrowableBug>().bobingSpeed = 36f;
+            doug.GetComponent<ThrowableBug>().bobingFrequency = 5f;
+            doug.GetComponent<ThrowableBug>().bobMagnintude = 3f;
+            doug.GetComponent<ThrowableBug>().bobingSpeed = 25f;
         }
 
         public static void FixMatt()
@@ -128,6 +131,8 @@ namespace StupidTemplate.Mods
             GameObject doug = GameObject.Find("Cave Bat Holdable");
             doug.GetComponent<ThrowableBug>().maxNaturalSpeed = Main.originMattSpeed;
             doug.GetComponent<ThrowableBug>().bobingSpeed = Main.originMattBobbingSpeed;
+            doug.GetComponent<ThrowableBug>().bobMagnintude = Main.originMattBobMag;
+            doug.GetComponent<ThrowableBug>().allowPlayerStealing = true;
         }
 
         public static void DougBeyblade()
@@ -146,6 +151,66 @@ namespace StupidTemplate.Mods
             doug.transform.rotation = Quaternion.Euler(currentEulerAngles);
         }
 
+        public static void FreezeDoug()
+        {
+            ThrowableBug doug = GameObject.Find("Floating Bug Holdable").GetComponent<ThrowableBug>();
+            doug.maxNaturalSpeed = 0;
+        }
+
+        public static void FreezeMatt()
+        {
+            ThrowableBug doug = GameObject.Find("Cave Bat Holdable").GetComponent<ThrowableBug>();
+            doug.maxNaturalSpeed = 0;
+        }
+
+        public static void NoMoreDoug()
+        {
+            ThrowableBug doug = GameObject.Find("Floating Bug Holdable").GetComponent<ThrowableBug>();
+            doug.transform.position = new Vector3(999f, 999f, 999f);
+        }
+
+        public static void NoMoreMatt()
+        {
+            ThrowableBug doug = GameObject.Find("Cave Bat Holdable").GetComponent<ThrowableBug>();
+            doug.transform.position = new Vector3(999f, 999f, 999f);
+        }
+
+        public static void NoGrabDoug()
+        {
+            ThrowableBug doug = GameObject.Find("Floating Bug Holdable").GetComponent<ThrowableBug>();
+            doug.allowPlayerStealing = false;
+        }
+
+        public static void NoGrabMatt()
+        {
+            ThrowableBug doug = GameObject.Find("Cave Bat Holdable").GetComponent<ThrowableBug>();
+            doug.allowPlayerStealing = false;
+        }
+
+        public static void NoDropDoug()
+        {
+            ThrowableBug doug = GameObject.Find("Floating Bug Holdable").GetComponent<ThrowableBug>();
+            doug.canDrop = false;
+        }
+
+        public static void NoDropMatt()
+        {
+            ThrowableBug doug = GameObject.Find("Cave Bat Holdable").GetComponent<ThrowableBug>();
+            doug.canDrop = false;
+        }
+
+        public static void NoDoug()
+        {
+            ThrowableBug doug = GameObject.Find("Floating Bug Holdable").GetComponent<ThrowableBug>();
+            doug.ascentRate = 1;
+            doug.ascentSlerp = 0;
+            doug.ascentSlerpRate = 2;
+            doug.bobingFrequency = 1;
+            doug.bobingSpeed = 3;
+            doug.bobingState = 2.4411f;
+            doug.bobMagnintude = 0.03f;
+
+        }
 
 
         public static void GrabGliders()
@@ -290,13 +355,12 @@ namespace StupidTemplate.Mods
                             glider.OnHover(null, null);
                         }
                     }
-                    continue;
                 }
             }
         }
 
         public static Transform target = GorillaTagger.Instance.offlineVRRig.head.rigTarget; // The GameObject to orbit around
-        public static float orbitDistance = 5f; // Distance from the target
+        public static float orbitDistance = 1f; // Distance from the target
         public static float orbitSpeed = 10.0f; // Speed of the orbit
         public static float angle = 0.0f;
         public static void SpazGlidersV2()

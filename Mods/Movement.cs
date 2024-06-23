@@ -1,4 +1,5 @@
 ﻿using HarmonyLib;
+using Photon.Pun;
 using StupidTemplate.Menu;
 using StupidTemplate.Notifications;
 using System;
@@ -207,6 +208,314 @@ namespace StupidTemplate.Mods
             }
         }
 
+        public static void SnowballPlatforms()
+        {
+            if (true)
+            {
+                if (Main.leftGrab)
+                {
+                    if (Main.Leftplat == null)
+                    {
+                        if (!Main.createdLeftPlat)
+                        {
+                            Main.Leftplat = PlacePlatform(GorillaTagger.Instance.leftHandTransform.position, GorillaTagger.Instance.leftHandTransform.rotation);
+                            Main.createdLeftPlat = true;
+                            UnityEngine.Object.Destroy(Main.Leftplat.GetComponent<Renderer>());
+                            Main.Leftplat.AddComponent<GorillaSurfaceOverride>().overrideIndex = 32;
+                        }
+                        Main.Leftplat.GetComponent<Renderer>().material.color = UnityEngine.Color.HSVToRGB(Main.h, 1f, 1f);
+                    }
+                }
+                else
+                {
+                    GameObject.Destroy(Main.Leftplat);
+                    Main.Leftplat = null;
+                    Main.createdLeftPlat = false;
+                }
+
+                if (Main.rightGrab)
+                {
+                    if (Main.Rightplat == null)
+                    {
+                        if (!Main.createdRightPlat)
+                        {
+                            Main.Rightplat = PlacePlatform(GorillaTagger.Instance.rightHandTransform.position, GorillaTagger.Instance.rightHandTransform.rotation);
+                            Main.createdRightPlat = true;
+                            UnityEngine.Object.Destroy(Main.Rightplat.GetComponent<Renderer>());
+                            Main.Rightplat.AddComponent<GorillaSurfaceOverride>().overrideIndex = 32;
+                        }
+                        Main.Rightplat.GetComponent<Renderer>().material.color = UnityEngine.Color.HSVToRGB(Main.h, 1f, 1f);
+                    }
+                }
+                else
+                {
+                    GameObject.Destroy(Main.Rightplat);
+                    Main.Rightplat = null;
+                    Main.createdRightPlat = false;
+                }
+            }
+            else
+            {
+                TriggerPlatforms();
+            }
+        }
+
+        public static void WaterBalloonPlatforms()
+        {
+            if (true)
+            {
+                if (Main.leftGrab)
+                {
+                    if (Main.Leftplat == null)
+                    {
+                        if (!Main.createdLeftPlat)
+                        {
+                            Main.Leftplat = PlacePlatform(GorillaTagger.Instance.leftHandTransform.position, GorillaTagger.Instance.leftHandTransform.rotation);
+                            Main.createdLeftPlat = true;
+                            UnityEngine.Object.Destroy(Main.Leftplat.GetComponent<Renderer>());
+                            Main.Leftplat.AddComponent<GorillaSurfaceOverride>().overrideIndex = 204;
+                        }
+                        Main.Leftplat.GetComponent<Renderer>().material.color = UnityEngine.Color.HSVToRGB(Main.h, 1f, 1f);
+                    }
+                }
+                else
+                {
+                    GameObject.Destroy(Main.Leftplat);
+                    Main.Leftplat = null;
+                    Main.createdLeftPlat = false;
+                }
+
+                if (Main.rightGrab)
+                {
+                    if (Main.Rightplat == null)
+                    {
+                        if (!Main.createdRightPlat)
+                        {
+                            Main.Rightplat = PlacePlatform(GorillaTagger.Instance.rightHandTransform.position, GorillaTagger.Instance.rightHandTransform.rotation);
+                            Main.createdRightPlat = true;
+                            UnityEngine.Object.Destroy(Main.Rightplat.GetComponent<Renderer>());
+                            Main.Rightplat.AddComponent<GorillaSurfaceOverride>().overrideIndex = 204;
+                        }
+                        Main.Rightplat.GetComponent<Renderer>().material.color = UnityEngine.Color.HSVToRGB(Main.h, 1f, 1f);
+                    }
+                }
+                else
+                {
+                    GameObject.Destroy(Main.Rightplat);
+                    Main.Rightplat = null;
+                    Main.createdRightPlat = false;
+                }
+            }
+            else
+            {
+                TriggerPlatforms();
+            }
+        }
+
+        public static void LavaRockPlatforms()
+        {
+            if (true)
+            {
+                if (Main.leftGrab)
+                {
+                    if (Main.Leftplat == null)
+                    {
+                        if (!Main.createdLeftPlat)
+                        {
+                            Main.Leftplat = PlacePlatform(GorillaTagger.Instance.leftHandTransform.position, GorillaTagger.Instance.leftHandTransform.rotation);
+                            Main.createdLeftPlat = true;
+                            UnityEngine.Object.Destroy(Main.Leftplat.GetComponent<Renderer>());
+                            Main.Leftplat.AddComponent<GorillaSurfaceOverride>().overrideIndex = 231;
+                        }
+                        Main.Leftplat.GetComponent<Renderer>().material.color = UnityEngine.Color.HSVToRGB(Main.h, 1f, 1f);
+                    }
+                }
+                else
+                {
+                    GameObject.Destroy(Main.Leftplat);
+                    Main.Leftplat = null;
+                    Main.createdLeftPlat = false;
+                }
+
+                if (Main.rightGrab)
+                {
+                    if (Main.Rightplat == null)
+                    {
+                        if (!Main.createdRightPlat)
+                        {
+                            Main.Rightplat = PlacePlatform(GorillaTagger.Instance.rightHandTransform.position, GorillaTagger.Instance.rightHandTransform.rotation);
+                            Main.createdRightPlat = true;
+                            UnityEngine.Object.Destroy(Main.Rightplat.GetComponent<Renderer>());
+                            Main.Rightplat.AddComponent<GorillaSurfaceOverride>().overrideIndex = 231;
+                        }
+                        Main.Rightplat.GetComponent<Renderer>().material.color = UnityEngine.Color.HSVToRGB(Main.h, 1f, 1f);
+                    }
+                }
+                else
+                {
+                    GameObject.Destroy(Main.Rightplat);
+                    Main.Rightplat = null;
+                    Main.createdRightPlat = false;
+                }
+            }
+            else
+            {
+                TriggerPlatforms();
+            }
+        }
+
+        public static void GiftPlatforms()
+        {
+            if (true)
+            {
+                if (Main.leftGrab)
+                {
+                    if (Main.Leftplat == null)
+                    {
+                        if (!Main.createdLeftPlat)
+                        {
+                            Main.Leftplat = PlacePlatform(GorillaTagger.Instance.leftHandTransform.position, GorillaTagger.Instance.leftHandTransform.rotation);
+                            Main.createdLeftPlat = true;
+                            UnityEngine.Object.Destroy(Main.Leftplat.GetComponent<Renderer>());
+                            Main.Leftplat.AddComponent<GorillaSurfaceOverride>().overrideIndex = 240;
+                        }
+                        Main.Leftplat.GetComponent<Renderer>().material.color = UnityEngine.Color.HSVToRGB(Main.h, 1f, 1f);
+                    }
+                }
+                else
+                {
+                    GameObject.Destroy(Main.Leftplat);
+                    Main.Leftplat = null;
+                    Main.createdLeftPlat = false;
+                }
+
+                if (Main.rightGrab)
+                {
+                    if (Main.Rightplat == null)
+                    {
+                        if (!Main.createdRightPlat)
+                        {
+                            Main.Rightplat = PlacePlatform(GorillaTagger.Instance.rightHandTransform.position, GorillaTagger.Instance.rightHandTransform.rotation);
+                            Main.createdRightPlat = true;
+                            UnityEngine.Object.Destroy(Main.Rightplat.GetComponent<Renderer>());
+                            Main.Rightplat.AddComponent<GorillaSurfaceOverride>().overrideIndex = 240;
+                        }
+                        Main.Rightplat.GetComponent<Renderer>().material.color = UnityEngine.Color.HSVToRGB(Main.h, 1f, 1f);
+                    }
+                }
+                else
+                {
+                    GameObject.Destroy(Main.Rightplat);
+                    Main.Rightplat = null;
+                    Main.createdRightPlat = false;
+                }
+            }
+            else
+            {
+                TriggerPlatforms();
+            }
+        }
+
+        public static void ScienceCandyPlatforms()
+        {
+            if (true)
+            {
+                if (Main.leftGrab)
+                {
+                    if (Main.Leftplat == null)
+                    {
+                        if (!Main.createdLeftPlat)
+                        {
+                            Main.Leftplat = PlacePlatform(GorillaTagger.Instance.leftHandTransform.position, GorillaTagger.Instance.leftHandTransform.rotation);
+                            Main.createdLeftPlat = true;
+                            UnityEngine.Object.Destroy(Main.Leftplat.GetComponent<Renderer>());
+                            Main.Leftplat.AddComponent<GorillaSurfaceOverride>().overrideIndex = 249;
+                        }
+                        Main.Leftplat.GetComponent<Renderer>().material.color = UnityEngine.Color.HSVToRGB(Main.h, 1f, 1f);
+                    }
+                }
+                else
+                {
+                    GameObject.Destroy(Main.Leftplat);
+                    Main.Leftplat = null;
+                    Main.createdLeftPlat = false;
+                }
+
+                if (Main.rightGrab)
+                {
+                    if (Main.Rightplat == null)
+                    {
+                        if (!Main.createdRightPlat)
+                        {
+                            Main.Rightplat = PlacePlatform(GorillaTagger.Instance.rightHandTransform.position, GorillaTagger.Instance.rightHandTransform.rotation);
+                            Main.createdRightPlat = true;
+                            UnityEngine.Object.Destroy(Main.Rightplat.GetComponent<Renderer>());
+                            Main.Rightplat.AddComponent<GorillaSurfaceOverride>().overrideIndex = 249;
+                        }
+                        Main.Rightplat.GetComponent<Renderer>().material.color = UnityEngine.Color.HSVToRGB(Main.h, 1f, 1f);
+                    }
+                }
+                else
+                {
+                    GameObject.Destroy(Main.Rightplat);
+                    Main.Rightplat = null;
+                    Main.createdRightPlat = false;
+                }
+            }
+            else
+            {
+                TriggerPlatforms();
+            }
+        }
+
+        public static void FishFoodPlatforms()
+        {
+            if (true)
+            {
+                if (Main.leftGrab)
+                {
+                    if (Main.Leftplat == null)
+                    {
+                        if (!Main.createdLeftPlat)
+                        {
+                            Main.Leftplat = PlacePlatform(GorillaTagger.Instance.leftHandTransform.position, GorillaTagger.Instance.leftHandTransform.rotation);
+                            Main.createdLeftPlat = true;
+                            UnityEngine.Object.Destroy(Main.Leftplat.GetComponent<Renderer>());
+                            Main.Leftplat.AddComponent<GorillaSurfaceOverride>().overrideIndex = 252;
+                        }
+                        Main.Leftplat.GetComponent<Renderer>().material.color = UnityEngine.Color.HSVToRGB(Main.h, 1f, 1f);
+                    }
+                }
+                else
+                {
+                    GameObject.Destroy(Main.Leftplat);
+                    Main.Leftplat = null;
+                    Main.createdLeftPlat = false;
+                }
+
+                if (Main.rightGrab)
+                {
+                    if (Main.Rightplat == null)
+                    {
+                        if (!Main.createdRightPlat)
+                        {
+                            Main.Rightplat = PlacePlatform(GorillaTagger.Instance.rightHandTransform.position, GorillaTagger.Instance.rightHandTransform.rotation);
+                            Main.createdRightPlat = true;
+                            UnityEngine.Object.Destroy(Main.Rightplat.GetComponent<Renderer>());
+                            Main.Rightplat.AddComponent<GorillaSurfaceOverride>().overrideIndex = 252;
+                        }
+                        Main.Rightplat.GetComponent<Renderer>().material.color = UnityEngine.Color.HSVToRGB(Main.h, 1f, 1f);
+                    }
+                }
+                else
+                {
+                    GameObject.Destroy(Main.Rightplat);
+                    Main.Rightplat = null;
+                    Main.createdRightPlat = false;
+                }
+            }
+        }
+
         public static void NoClipPlatforms()
         {
             if (Main.useGripForPlatforms)
@@ -327,7 +636,7 @@ namespace StupidTemplate.Mods
         }
 
 
-        public static async void PlatformGun()
+        public static void PlatformGun()
         {
             Main.GunGameObjectEnabled = true;
             //CoroutineRunner coroutineRunner = new CoroutineRunner();
@@ -838,7 +1147,105 @@ namespace StupidTemplate.Mods
 
 
 
+        public static void IronMonke()
+        {
+            if (Main.rightGrab)
+            {
+                Rigidbody rb = GorillaLocomotion.Player.Instance.GetComponent<Rigidbody>();
+                Vector3 force = GorillaTagger.Instance.rightHandTransform.up * 18;
+                rb.AddForce(force, ForceMode.Acceleration);
+                if (!Main.leftGrab)
+                {
+                    Splash(GorillaTagger.Instance.rightHandTransform.position, UnityEngine.Random.rotation);
+                }
+            }
 
+            if (Main.leftGrab)
+            {
+                Rigidbody rb = GorillaLocomotion.Player.Instance.GetComponent<Rigidbody>();
+                Vector3 force = GorillaTagger.Instance.leftHandTransform.up * 18;
+                rb.AddForce(force, ForceMode.Acceleration);
+                if (!Main.rightGrab)
+                {
+                    Splash(GorillaTagger.Instance.leftHandTransform.position, UnityEngine.Random.rotation);
+                }
+            }
+
+            if (Main.leftGrab && Main.rightGrab)
+            {
+                Splash(GorillaTagger.Instance.leftHandTransform.position, UnityEngine.Random.rotation, true, GorillaTagger.Instance.rightHandTransform.position);
+            }
+        }
+
+        public static float splashDelay = 0.3f;
+        public static float splashTime = 0f;
+        public static void Splash(Vector3 pos, Quaternion rotation, bool twoPos = false, Vector3? pos2 = null, float num1 = 4f, float num2 = 100f)
+        {
+            if (Time.time > splashTime)
+            {
+                if (!twoPos)
+                {
+                    GorillaTagger.Instance.myVRRig.RPC("PlaySplashEffect", 0, new object[]
+                    {
+                    pos,
+                    rotation,
+                    num1,
+                    num2,
+                    true,
+                    false
+                    });
+                    Sounds.RPCProtection();
+                    Experimental.AntiRpc();
+                }
+                else
+                {
+                    if (pos2 != null)
+                    {
+                        GorillaTagger.Instance.myVRRig.RPC("PlaySplashEffect", 0, new object[]
+                        {
+                        pos,
+                        rotation,
+                        num1,
+                        num2,
+                        true,
+                        false
+                        });
+                        GorillaTagger.Instance.myVRRig.RPC("PlaySplashEffect", 0, new object[]
+                        {
+                        pos2,
+                        rotation,
+                        num1,
+                        num2,
+                        true,
+                        false
+                        });
+                        Sounds.RPCProtection();
+                        Experimental.AntiRpc();
+                    }
+                }
+
+                // Update the splashTime only if the splash effect was triggered
+                splashTime = Time.time + splashDelay;
+            }
+        }
+
+
+        public static void SolidPlayers()
+        {
+            foreach (VRRig vrrig in GorillaParent.instance.vrrigs)
+            {
+                if (vrrig.Creator.UserId != PhotonNetwork.LocalPlayer.UserId)
+                {
+                    Vector3 offset = new Vector3(0f, -0.1f, 0f);
+                    GameObject box = GameObject.CreatePrimitive(PrimitiveType.Cube);
+                    UnityEngine.Object.Destroy(box.GetComponent<Renderer>());
+                    box.transform.localScale = new Vector3(0.4f, 0.7f, 0.3f);
+                    box.transform.position = vrrig.transform.position + offset;
+                    box.transform.rotation = vrrig.transform.rotation;
+                    GameObject.Destroy(box, Time.deltaTime);
+                }
+            }
+        }
 
 
     }

@@ -19,12 +19,13 @@ namespace StupidTemplate.Menu
                 new ButtonInfo { buttonText = "Sounds", method =() => SettingsMods.EnableSoundMods(), isTogglable = false, toolTip = "Opens the sound related mods."},
                 new ButtonInfo { buttonText = "Overpowered", method =() => SettingsMods.EnableOverpoweredMods(), isTogglable = false, toolTip = "Opens the op mods."},
                 new ButtonInfo { buttonText = "Master", method =() => SettingsMods.EnableMasterMods(), isTogglable = false, toolTip = "Opens the master mods."},
-                new ButtonInfo { buttonText = "Identity", method =() => SettingsMods.EnterIdentityMods(), isTogglable = false, toolTip = "Opens the identity mods."},
+                //new ButtonInfo { buttonText = "Identity", method =() => SettingsMods.EnterIdentityMods(), isTogglable = false, toolTip = "Opens the identity mods."},
                 new ButtonInfo { buttonText = "Horror", method =() => SettingsMods.EnterHorrorMods(), isTogglable = false, toolTip = "Opens the new horror mode mods."},
                 new ButtonInfo { buttonText = "Experimental", method =() => SettingsMods.EnableExperimentMods(), isTogglable = false, toolTip = "Opens the experimental mods."},
                 new ButtonInfo { buttonText = "Menu Sided", method = () => SettingsMods.EnterMenuSidedMods(), isTogglable = false, toolTip = "Opens the menu sided mods."},
                 new ButtonInfo { buttonText = "Misc", method = () => SettingsMods.EnterMiscMods(), isTogglable = false, toolTip = "Opens the misc mods."},
                 new ButtonInfo { buttonText = "Projectile", method = () => SettingsMods.EnterProjectileMods(), isTogglable = false, toolTip = "Opens the projectile mods."},
+                new ButtonInfo { buttonText = "Visual", method = () => SettingsMods.EnterVisualMods(), isTogglable = false, toolTip = "Opens the visuals mods."},
             },
 
             new ButtonInfo[] { // Settings [1]
@@ -73,6 +74,12 @@ namespace StupidTemplate.Menu
                 new ButtonInfo { buttonText = $"No Clip [B]", method =() => Movement.NoClip(true), disableMethod =() => Movement.DisableNoClip(), toolTip = "Enables no clip."},
                 new ButtonInfo { buttonText = $"Platforms", method =() => Movement.Platforms(), toolTip = "Enables platforms."},
                 new ButtonInfo { buttonText = $"Platforms + NoClip", method =() => Movement.NoClipPlatforms(), disableMethod =() => Movement.DisableNoClip(), toolTip = "Enables platforms."},
+                new ButtonInfo { buttonText = $"Snowball Platforms", method =() => Movement.SnowballPlatforms(), toolTip = "Enables snowball platforms."},
+                new ButtonInfo { buttonText = $"WaterBalloon Platforms", method =() => Movement.WaterBalloonPlatforms(), toolTip = "Enables waterballoon platforms."},
+                new ButtonInfo { buttonText = $"LavaRock Platforms", method =() => Movement.LavaRockPlatforms(), toolTip = "Enables lavarock platforms."},
+                new ButtonInfo { buttonText = $"Gift Platforms", method =() => Movement.GiftPlatforms(), toolTip = "Enables gift platforms."},
+                new ButtonInfo { buttonText = $"Science Candy Platforms", method =() => Movement.ScienceCandyPlatforms(), toolTip = "Enables science candy platforms."},
+                new ButtonInfo { buttonText = $"Fish Food Platforms", method =() => Movement.FishFoodPlatforms(), toolTip = "Enables fish food platforms."},
                 new ButtonInfo { buttonText = $"Platforms Gun", method =() => Movement.PlatformGun(), disableMethod =() => Movement.DisablePlatformGun(), toolTip = "Places platforms with the point is."},
                 new ButtonInfo { buttonText = "", isTogglable = false, toolTip = "" },
                 new ButtonInfo { buttonText = $"Low Gravity", method =() => Movement.LowGravity(), toolTip = "Makes the gravity in game low like the moon."},
@@ -97,8 +104,10 @@ namespace StupidTemplate.Menu
                 new ButtonInfo { buttonText = "Left And Right [G]", method =() => Movement.LeftAndRight(), toolTip = "Makes you go left and right." },
                 new ButtonInfo { buttonText = "", isTogglable = false, toolTip = "" },
                 new ButtonInfo { buttonText = "Copy Player Gun", method =() => Movement.CopyPlayerMovementGun(), toolTip = "Copys selected players movement."},
-                new ButtonInfo { buttonText = "Fake Lag", method =() => Movement.FakeLag(), disableMethod =() => Movement.FixOfflineRig(), toolTip = "Makes you look like your lagging." },
-                new ButtonInfo { buttonText = "Ghost Cam", method =() => Movement.GhostCam(), disableMethod =() => Movement.FixOfflineRig(), toolTip = "Makes your rig freeze." },
+                new ButtonInfo { buttonText = "Fake Lag [W?]", method =() => Movement.FakeLag(), disableMethod =() => Movement.FixOfflineRig(), toolTip = "Makes you look like your lagging." },
+                new ButtonInfo { buttonText = "Ghost Cam [NW]", method =() => Movement.GhostCam(), disableMethod =() => Movement.FixOfflineRig(), toolTip = "Makes your rig freeze." },
+                new ButtonInfo { buttonText = "Iron Monke [W]", method =() => Movement.IronMonke(), toolTip = "Flings you into the air."},
+                new ButtonInfo { buttonText = "Solid Players [W]", method =() => Movement.SolidPlayers(), toolTip = "Makes other players solid."},
             },
 
             new ButtonInfo[] // Speed Boost Settings [6]
@@ -121,7 +130,6 @@ namespace StupidTemplate.Menu
             new ButtonInfo[] // Rig Mods [8]
             {
                 new ButtonInfo { buttonText = "Return To Main", method =() => Global.ReturnHome(), isTogglable = false, toolTip = "Goes back to the home page"}, //1
-                new ButtonInfo { buttonText = "Skeleton ESP", method =() => Rig.SkeletonESP(), disableMethod =() => Rig.CleanupSkeletonESP(), toolTip = "Turns On Skeleton Esp"}, //2
                 new ButtonInfo { buttonText = "", isTogglable = false, toolTip = "" },
                 new ButtonInfo { buttonText = "Backwards Head", method =() => Rig.BackwardsHead(), disableMethod =() => Rig.FixTrackingOffsets(), toolTip = "Makes your head turn backwards."}, // 3
                 new ButtonInfo { buttonText = "Upside Down Head", method =() => Rig.UpsideDownHead(), disableMethod =() => Rig.FixTrackingOffsets(), toolTip = "Makes your head turn upside down."}, //4
@@ -130,9 +138,9 @@ namespace StupidTemplate.Menu
                 new ButtonInfo { buttonText = "Spin Head Y", method =() => Rig.SpinHeadY(), disableMethod =() => Rig.FixTrackingOffsets(), toolTip = "Makes your head spin on the y axis."}, //6
                 new ButtonInfo { buttonText = "Spin Head Z", method =() => Rig.SpinHeadZ(), disableMethod =() => Rig.FixTrackingOffsets(), toolTip = "Makes your head spin on the z axis."}, //7
 
-                new ButtonInfo { buttonText = "Move Body X", method =() => Rig.HeadPositionTestX(), disableMethod =() => Rig.FixTrackingOffsets(), toolTip = "Makes your head move on the x axis."}, //8
-                new ButtonInfo { buttonText = "Move Body Y", method =() => Rig.HeadPositionTestY(), disableMethod =() => Rig.FixTrackingOffsets(), toolTip = "Makes your head move on the y axis."}, //9
-                new ButtonInfo { buttonText = "Move Body Z", method =() => Rig.HeadPositionTestZ(), disableMethod =() => Rig.FixTrackingOffsets(), toolTip = "Makes your head move on the z axis."}, //10
+                //new ButtonInfo { buttonText = "Move Body X", method =() => Rig.HeadPositionTestX(), disableMethod =() => Rig.FixTrackingOffsets(), toolTip = "Makes your head move on the x axis."}, //8
+                //new ButtonInfo { buttonText = "Move Body Y", method =() => Rig.HeadPositionTestY(), disableMethod =() => Rig.FixTrackingOffsets(), toolTip = "Makes your head move on the y axis."}, //9
+                //new ButtonInfo { buttonText = "Move Body Z", method =() => Rig.HeadPositionTestZ(), disableMethod =() => Rig.FixTrackingOffsets(), toolTip = "Makes your head move on the z axis."}, //10
 
                 new ButtonInfo { buttonText = "Fix Rig", method =() => Rig.FixTrackingOffsets(), isTogglable = false, toolTip = "Moves your offline vrrig to the pointer."}, //11
                 new ButtonInfo { buttonText = "", isTogglable = false, toolTip = "" },
@@ -143,8 +151,9 @@ namespace StupidTemplate.Menu
                 new ButtonInfo { buttonText = "Invis Monke [UND][B]", method =() => Rig.InvisMonke(), disableMethod =() => Rig.FixTrackingOffsets(), toolTip = "Makes you invisible"},//14
                 new ButtonInfo { buttonText = "Ghost Monke [UND][B]", method =() => Rig.GhostMonke(), disableMethod =() => Rig.FixTrackingOffsets(), toolTip = "Makes you into a frozen ghost."},//15
                 new ButtonInfo { buttonText = "Bees [UND][A]", method =() => Rig.Bees(), disableMethod =() => Rig.FixTrackingOffsets(), toolTip = "Makes you tp to each player in the lobby repeatedly."},//16
+                new ButtonInfo { buttonText = "Chase Player Gun", method =() => Rig.ChasePlayerGun(), toolTip = "Chases the target player."},
                 new ButtonInfo { buttonText = "", isTogglable = false, toolTip = "" },
-                new ButtonInfo { buttonText = "Third Person [WIP]", method =() => Rig.ThirdPerson(), disableMethod =() => Rig.FixTrackingOffsets(), toolTip = "Makes you go into the third person."},//17
+                //new ButtonInfo { buttonText = "Third Person [NW]", method =() => Rig.ThirdPerson(), disableMethod =() => Rig.FixTrackingOffsets(), toolTip = "Makes you go into the third person."},//17
             },
 
             new ButtonInfo[] // Sound Mods [9]
@@ -170,24 +179,32 @@ namespace StupidTemplate.Menu
                 new ButtonInfo { buttonText = "Tag All [UND][RT]", method =() => OverPowered.TestTagAll(), toolTip = "A tag all. pretty self explanatory."},
                 new ButtonInfo { buttonText = "Tag Aura [RG]", method =() => OverPowered.TagAura(), toolTip = "Tags everyone within 10 meters of you automatically."},
                 new ButtonInfo { buttonText = "Tag Self", method =() => OverPowered.TagSelf(), toolTip = "Tags yourself."},
-
             },
 
             new ButtonInfo[] // Fun Mods [11]
             {
                 new ButtonInfo { buttonText = "Return To Main", method =() => Global.ReturnHome(), isTogglable = false, toolTip = "Goes back to the home page"},
                 new ButtonInfo { buttonText = "", isTogglable = false, toolTip = "" },
+                //new ButtonInfo { buttonText = "Doug Test", method =() => Fun.NoDoug(), toolTip = "idfk" },
                 new ButtonInfo { buttonText = "Steal Doug", method =() => Fun.JediDoug(), toolTip = "Uses the force on doug and if you are master can steal him from others."},
                 new ButtonInfo { buttonText = "Doug Gun", method =() => Fun.DougGun(), toolTip = "Shoots doug to the position of the pointer."},
                 new ButtonInfo { buttonText = "Fast Doug", method =() => Fun.FastDoug(), disableMethod =() => Fun.FixDoug(), toolTip = "Makes doug fast."},
                 new ButtonInfo { buttonText = "Spaz Doug", method =() => Fun.SpazDoug(), disableMethod =() => Fun.FixDoug(), toolTip = "Makes doug spaz."},
                 new ButtonInfo { buttonText = "Doug Beyblade", method =() => Fun.DougBeyblade(), disableMethod =() => Fun.FixDoug(), toolTip = "Makes doug spin like a beyblade."},
+                new ButtonInfo { buttonText = "Freeze Doug", method =() => Fun.FreezeDoug(), disableMethod =() => Fun.FixDoug(), toolTip = "Makes doug freeze."},
+                new ButtonInfo { buttonText = "Destroy Doug", method =() => Fun.NoMoreDoug(), disableMethod =() => Fun.FixDoug(), toolTip = "Makes doug bye bye."},
+                new ButtonInfo { buttonText = "Break Doug", method =() => Fun.NoGrabDoug(), disableMethod =() => Fun.FixDoug(), toolTip = "Makes doug un grabbable."},
+                new ButtonInfo { buttonText = "No Drop Doug", method =() => Fun.NoDropDoug(), disableMethod =() => Fun.FixDoug(), toolTip = "Makes doug un-dropppable."},
                 new ButtonInfo { buttonText = "", isTogglable = false, toolTip = "" },
                 new ButtonInfo { buttonText = "Steal Matt", method =() => Fun.JediMatt(), toolTip = "Uses the force on matt and if you are master can steal him from others."},
                 new ButtonInfo { buttonText = "Matt Gun", method =() => Fun.MattGun(), toolTip = "Shoots matt to the position of the pointer."},
                 new ButtonInfo { buttonText = "Fast Matt", method =() => Fun.FastMatt(), disableMethod =() => Fun.FixMatt(), toolTip = "Makes matt fast."},
                 new ButtonInfo { buttonText = "Spaz Matt", method =() => Fun.SpazMatt(), disableMethod =() => Fun.FixMatt(), toolTip = "Makes matt spaz."},
                 new ButtonInfo { buttonText = "Matt Beyblade", method =() => Fun.MattBeyblade(), disableMethod =() => Fun.FixMatt(), toolTip = "Makes matt spin like a beyblade."},
+                new ButtonInfo { buttonText = "Freeze Matt", method =() => Fun.FreezeMatt(), disableMethod =() => Fun.FixMatt(), toolTip = "Makes Matt freeze."},
+                new ButtonInfo { buttonText = "Destroy Matt", method =() => Fun.NoMoreMatt(), disableMethod =() => Fun.FixMatt(), toolTip = "Makes Matt bye bye."},
+                new ButtonInfo { buttonText = "Break Matt", method =() => Fun.NoGrabMatt(), disableMethod =() => Fun.FixMatt(), toolTip = "Makes Matt un grabbable."},
+                new ButtonInfo { buttonText = "No Drop Matt", method =() => Fun.NoDropMatt(), disableMethod =() => Fun.FixMatt(), toolTip = "Makes Matt un-dropppable."},
                 new ButtonInfo { buttonText = "", isTogglable = false, toolTip = "" },
                 new ButtonInfo { buttonText = "Glider Gun", method =() => Fun.GliderGun(), toolTip = "Puts all of the gliders to the pointers position."},
                 new ButtonInfo { buttonText = "Glider Spaz", method =() => Fun.GlidersSpaz(), toolTip = "Spazes out all of the gliders."},
@@ -223,9 +240,12 @@ namespace StupidTemplate.Menu
 
                 new ButtonInfo { buttonText = "", isTogglable = false, toolTip = "" },
                 new ButtonInfo { buttonText = "Push Players [NW]", method =() => Experimental.GrabMonsters(), toolTip = "Grabs the basement monsters."},
-                new ButtonInfo { buttonText = "Float Player Gun [M]", method =() => Experimental.FloatPlayerGun(), toolTip = "Makes the selected player float in the air."},
+                new ButtonInfo { buttonText = "Crush Player Gun [M][W?]", method =() => Experimental.FloatPlayerGun(), toolTip = "Makes the selected player go down in the ground."},
                 new ButtonInfo { buttonText = "", isTogglable = false, toolTip = "" },
-                //new ButtonInfo { buttonText = "Punch Mod [NW]", method =() => Experimental.PunchMod(), toolTip = "Flings you when a player punches you."},
+                
+                new ButtonInfo { buttonText = "Anti Slip [NW]", method =() => Experimental.NoSlippyWallsCuzUrSigmaWallClimber(), disableMethod =() => Experimental.FixNoSlip(), toolTip = "Makes it so you can't slip on anything."},
+                
+                
                 //new ButtonInfo { buttonText = "Crash Gun [NW]", method =() => Experimental.CrashGun(), toolTip = "Crashes the player selected." },
                 new ButtonInfo { buttonText = "", isTogglable = false, toolTip = "" },
             },
@@ -244,12 +264,12 @@ namespace StupidTemplate.Menu
                 new ButtonInfo { buttonText = "Mat Spam Self [M]", method =() => Master.MatSpamSelf(), toolTip = "Mat spams only you."},
                 new ButtonInfo { buttonText = "Mat Spam Gun [M]", method =() => Master.MatSpamGun(), toolTip = "Mat spams target player."},
                 new ButtonInfo { buttonText = "Give Mat Spam Gun [M]", method =() => Master.GiveMatSpamGun(), toolTip = "Gives someone matspam gun."},
-                new ButtonInfo { buttonText = "Slow Others [M]", method =() => Master.SlowOthers(), toolTip = "Slows everyone but you."},
-                new ButtonInfo { buttonText = "Slow Gun [M]", method =() => Master.SlowGun(), toolTip = "Slows target player."},
-                new ButtonInfo { buttonText = "Give Slow Gun [M]", method =() => Master.GiveSlowGun(), toolTip = "Gives someone slow gun."},
-                new ButtonInfo { buttonText = "Vibrate Others [M]", method =() => Master.VibrateOthers(), toolTip = "Vibrates everyone but you."},
-                new ButtonInfo { buttonText = "Vibrate Gun [M]", method =() => Master.VibrateGun(), toolTip = "Vibrates target player."},
-                new ButtonInfo { buttonText = "Give Vibrate Gun [M]", method =() => Master.GiveVibrateGun(), toolTip = "Gives someone vibrate gun."},
+                //new ButtonInfo { buttonText = "Slow Others [NW]", method =() => Master.SlowOthers(), toolTip = "Slows everyone but you."},
+                //new ButtonInfo { buttonText = "Slow Gun [NW]", method =() => Master.SlowGun(), toolTip = "Slows target player."},
+                //new ButtonInfo { buttonText = "Give Slow Gun [NW]", method =() => Master.GiveSlowGun(), toolTip = "Gives someone slow gun."},
+                //new ButtonInfo { buttonText = "Vibrate Others [NW]", method =() => Master.VibrateOthers(), toolTip = "Vibrates everyone but you."},
+                //new ButtonInfo { buttonText = "Vibrate Gun [NW]", method =() => Master.VibrateGun(), toolTip = "Vibrates target player."},
+                //new ButtonInfo { buttonText = "Give Vibrate Gun [NW]", method =() => Master.GiveVibrateGun(), toolTip = "Gives someone vibrate gun."},
                 new ButtonInfo { buttonText = "Tag Self [M]", method =() => Master.TagSelf(), isTogglable = false, toolTip = "Tags yourself."},
                 new ButtonInfo { buttonText = "Untag Self [M]", method =() => Master.UntagSelf(), isTogglable = false, toolTip = "Untags yourself."},
                 new ButtonInfo { buttonText = "Silent Tag Gun [M]", method =() => Master.ForceTagGun(), toolTip = "Tags Wanted Player Without Vibration."},
@@ -306,13 +326,20 @@ namespace StupidTemplate.Menu
                 new ButtonInfo { buttonText = "Lock Comp", method =() => Misc.LockComp(), toolTip = "Locks competitive cause why not."},
                 new ButtonInfo { buttonText = "Disable Afk Kick", method =() => Misc.DisableAfkKick(), toolTip = "Disables afk kick."},
                 new ButtonInfo { buttonText = "Enable Afk kick", method =() => Misc.EnableAfkKick(), toolTip = "Enables afk kick cause why not."},
+
             },
 
             new ButtonInfo[] // PROJECTILE MODS WWW [20]
             {
                 new ButtonInfo { buttonText = "Return To Main", method =() => Global.ReturnHome(), isTogglable = false, toolTip = "Goes back to the home page"},
-                new ButtonInfo { buttonText = "PROJECTILE GUN MADE BY: 504BRANDON :)", isTogglable = false, toolTip = "" },
+                new ButtonInfo { buttonText = "PROJECTILE GUNS MADE BY: 504BRANDON :)", isTogglable = false, toolTip = "" },
                 new ButtonInfo { buttonText = "Projectile Gun", method =() => Projectiles.WORKINGPROJECTILESFRFRFORREALZYS(), toolTip = "Shoots projectiles out of your hand."},
+                new ButtonInfo { buttonText = "Snowball Gun", method =() => Projectiles.SnowballGun(), toolTip = "Shoots snowballs where the pointer is."},
+                new ButtonInfo { buttonText = "WaterBalloon Gun", method =() => Projectiles.WaterballoonGun(), toolTip = "Shoots waterballoons where the pointer is."},
+                new ButtonInfo { buttonText = "LavaRock Gun", method =() => Projectiles.LavaRockGun(), toolTip = "Shoots lava rocks where the pointer is."},
+                new ButtonInfo { buttonText = "Gift Gun", method =() => Projectiles.GiftGun(), toolTip = "Shoots presents where the pointer is."},
+                new ButtonInfo { buttonText = "Science Candy Gun", method =() => Projectiles.CandyGun(), toolTip = "Shoots candy where the pointer is."},
+                new ButtonInfo { buttonText = "Fish Food Gun", method =() => Projectiles.FishFoodGun(), toolTip = "Shoots fish food where the pointer is."},
                 new ButtonInfo { buttonText = "Random Projectile Ground [FO][X]", method =() => Projectiles.RandomProjectileGroundForest(), toolTip = "When holding X you can grab projectiles from the ground in forest."},
                 new ButtonInfo { buttonText = "Snowball Ground [FO][X]", method =() => Projectiles.SnowballGroundForest(), toolTip = "When holding X you can grab projectiles from the ground in forest."},
                 new ButtonInfo { buttonText = "WaterBalloon Ground [FO][X]", method =() => Projectiles.WaterBalloonGroundForest(), toolTip = "When holding X you can grab projectiles from the ground in forest."},
@@ -328,12 +355,24 @@ namespace StupidTemplate.Menu
                 new ButtonInfo { buttonText = "Fish Food Spam [RG]", method =() => Projectiles.FishFoodSpam(), toolTip = "When holding right grip you can spam projectiles."},
                 new ButtonInfo { buttonText = "Random Spam [RG]", method =() => Projectiles.RandomSpam(), toolTip = "When holding right grip you can spam projectiles."},
                 new ButtonInfo { buttonText = "", isTogglable = false, toolTip = "" },
+                new ButtonInfo { buttonText = "Grab Player Liver [W]", method =() => Experimental.SolidPlayersOopsNoLiverForYouAnymoreWompWomp(), toolTip = "Steal the players liver cause why not, they don't need it.... right?"},
+                new ButtonInfo { buttonText = "Grab Player Heart [W]", method =() => Experimental.SolidPlayersOopsNoHeartForYouAnymoreWompWomp(), toolTip = "Steal the players heart cause why not, they don't need it.... right?"},
                 new ButtonInfo { buttonText = "", isTogglable = false, toolTip = "" },
                 new ButtonInfo { buttonText = "+ Surface Id +", method =() => Projectiles.ChangeSurfaceId(1), isTogglable = false, toolTip = "Changes the custom surface id."},
                 new ButtonInfo { buttonText = "++ Surface Id ++", method =() => Projectiles.ChangeSurfaceId(10), isTogglable = false, toolTip = "Changes the custom surface id."},
                 new ButtonInfo { buttonText = "Custom Surface [X]", method =() => Projectiles.CustomSurface(), toolTip = "Changes the forest surface override."},
                 new ButtonInfo { buttonText = "-- Surface Id --", method =() => Projectiles.ChangeSurfaceId(-1), isTogglable = false, toolTip = "Changes the custom surface id."},
                 new ButtonInfo { buttonText = "- Surface Id -", method =() => Projectiles.ChangeSurfaceId(-10), isTogglable = false, toolTip = "Changes the custom surface id."},
+            },
+
+            new ButtonInfo[] // Visual Mods [21]
+            {
+                new ButtonInfo { buttonText = "Return To Main", method =() => Global.ReturnHome(), isTogglable = false, toolTip = "Goes back to the home page"},
+                new ButtonInfo { buttonText = "Skeleton ESP", method =() => Visual.SkeletonESP(), toolTip = "Turns On Skeleton Esp"},
+                new ButtonInfo { buttonText = "Chams", method =() => Visual.BuggyChams(), disableMethod =() => Visual.FixPlayerShader(), toolTip = "Turns On chams"},
+                new ButtonInfo { buttonText = "Box Esp 2D", method =() => Visual.BoxEsp2D(), toolTip = "Turns On 2d box esp."},
+                new ButtonInfo { buttonText = "Box Esp 3D", method =() => Visual.BoxEsp3D(), toolTip = "Turns On 3d box esp."},
+                new ButtonInfo { buttonText = "Infection Tracers", method =() => Visual.InfectionTracersHand(), toolTip = "Turns on infection tracers."},
             },
         };
     }

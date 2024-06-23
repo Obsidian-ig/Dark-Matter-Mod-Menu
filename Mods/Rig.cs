@@ -13,54 +13,57 @@ namespace StupidTemplate.Mods
 {
     internal class Rig
     {
-        public static void SkeletonESP()
-        {
-            int[] bones = new int[]
-            {
-            4, 3, 5, 4, 19, 18, 20, 19, 3, 18, 21, 20, 22, 21, 25, 21, 29, 21, 31, 29, 27, 25, 24, 22, 6, 5, 7, 6, 10, 6, 14, 6, 16, 14, 12, 10, 9, 7
-            };
 
-            foreach (VRRig vrrig in GorillaParent.instance.vrrigs)
+
+        public static void ChasePlayerGun()
+        {
+            if (Main.rightGrab)
             {
-                if (!vrrig.isMyPlayer)
+                if (!Main.chasePlayerGunLocked)
                 {
-                    // Create a new GameObject for holding LineRenderers
-                    GameObject skeletonGO = new GameObject("SkeletonESP");
-                    skeletonGO.transform.SetParent(vrrig.transform); // Optional: Parent it to the VRRig for organization
+                    Physics.Raycast(GorillaTagger.Instance.rightHandTransform.position, GorillaTagger.Instance.rightHandTransform.forward, out var Ray);
 
-                    for (int i = 0; i < bones.Length; i += 2)
+                    GameObject pointer = GameObject.CreatePrimitive(PrimitiveType.Sphere);
+                    pointer.transform.localScale = new Vector3(0.1f, 0.1f, 0.1f);
+                    UnityEngine.Object.Destroy(pointer.GetComponent<SphereCollider>());
+                    UnityEngine.Object.Destroy(pointer.GetComponent<Rigidbody>());
+                    pointer.GetComponent<Renderer>().material.shader = UnityEngine.Shader.Find("GUI/Text Shader");
+                    pointer.GetComponent<Renderer>().material.color = UnityEngine.Color.white;
+                    pointer.transform.position = Ray.point;
+                    GameObject.Destroy(pointer, Time.deltaTime);
+
+                    if (Main.rightTrigger == 1f)
                     {
-                        Vector3 lineStart = vrrig.mainSkin.bones[bones[i]].position;
-                        Vector3 lineEnd = vrrig.mainSkin.bones[bones[i + 1]].position;
-
-                        // Create a new GameObject for each line segment
-                        GameObject lineGO = new GameObject("BoneLine");
-                        lineGO.transform.SetParent(skeletonGO.transform); // Optional: Parent it to the SkeletonESP GO
-
-                        LineRenderer lineRen = lineGO.AddComponent<LineRenderer>();
-
-                        // Configure the LineRenderer
-                        lineRen.startWidth = 0.01f; // Set the line width
-                        lineRen.endWidth = 0.01f; // Set the line width
-                        lineRen.material = new Material(Shader.Find("GUI/Text Shader")); // Use a basic material
-                        lineRen.startColor = Color.HSVToRGB(Main.h, 1f, 1f); // Set the line color
-                        lineRen.endColor = Color.HSVToRGB(Main.h, 1f, 1f); // Set the line color
-                        lineRen.positionCount = 2; // Number of points in the line
-
-                        // Set the positions for the LineRenderer
-                        lineRen.SetPosition(0, lineStart);
-                        lineRen.SetPosition(1, lineEnd);
-                        UnityEngine.Object.Destroy(lineGO.GetComponent<LineRenderer>(), Time.deltaTime);
-                        UnityEngine.GameObject.Destroy(lineGO, Time.deltaTime);
+                        pointer.GetComponent<Renderer>().material.color = Color.HSVToRGB(Main.h, 1f, 1f);
+                        if (Ray.collider.GetComponentInParent<VRRig>())
+                        {
+                            VRRig plr = Ray.collider.GetComponentInParent<VRRig>();
+                            Main.plrToLockOn = plr;
+                            Main.chasePlayerGunLocked = true;
+                            GorillaTagger.Instance.offlineVRRig.enabled = false;
+                            Main.ghostRigActive = true;
+                            GorillaTagger.Instance.offlineVRRig.transform.LookAt(plr.transform);
+                            GorillaTagger.Instance.offlineVRRig.transform.position += GorillaTagger.Instance.offlineVRRig.transform.forward * 30 * Time.deltaTime;
+                        }
+                        GameObject.Destroy(pointer, Time.deltaTime);
                     }
-                    UnityEngine.GameObject.Destroy(skeletonGO, Time.deltaTime);
                 }
-            }
-        }
 
-        public static void CleanupSkeletonESP()
-        {
-            
+                if (Main.chasePlayerGunLocked && Main.plrToLockOn != null)
+                {
+                    GorillaTagger.Instance.offlineVRRig.enabled = false;
+                    GorillaTagger.Instance.offlineVRRig.transform.LookAt(Main.plrToLockOn.transform);
+                    GorillaTagger.Instance.offlineVRRig.transform.position += GorillaTagger.Instance.offlineVRRig.transform.forward * 30 * Time.deltaTime;
+                }
+
+            }
+            else
+            {
+                Main.chasePlayerGunLocked = false;
+                Main.plrToLockOn = null;
+                GorillaTagger.Instance.offlineVRRig.enabled = true;
+                Main.ghostRigActive = false;
+            }
         }
 
         public static void FixTrackingOffsets()
@@ -68,12 +71,12 @@ namespace StupidTemplate.Mods
             GorillaTagger.Instance.offlineVRRig.head.trackingRotationOffset.x = 0f;
             GorillaTagger.Instance.offlineVRRig.head.trackingRotationOffset.y = 0f;
             GorillaTagger.Instance.offlineVRRig.head.trackingRotationOffset.z = 0f;
-            GorillaTagger.Instance.offlineVRRig.head.trackingPositionOffset.x = 0f;
+            /*GorillaTagger.Instance.offlineVRRig.head.trackingPositionOffset.x = 0f;
             GorillaTagger.Instance.offlineVRRig.head.trackingPositionOffset.y = 0f;
             GorillaTagger.Instance.offlineVRRig.head.trackingPositionOffset.z = 0f;
             GorillaTagger.Instance.offlineVRRig.headBodyOffset.x = 0f;
             GorillaTagger.Instance.offlineVRRig.headBodyOffset.y = 0f;
-            GorillaTagger.Instance.offlineVRRig.headBodyOffset.z = 0f;
+            GorillaTagger.Instance.offlineVRRig.headBodyOffset.z = 0f;*/
         }
 
         public static void BackwardsHead()
@@ -232,6 +235,7 @@ namespace StupidTemplate.Mods
                 {
                     pointer.GetComponent<Renderer>().material.color = UnityEngine.Color.HSVToRGB(Main.h, 1f, 1f);
                     GorillaTagger.Instance.offlineVRRig.enabled = false;
+                    Main.ghostRigActive = true;
                     GorillaTagger.Instance.offlineVRRig.transform.position = pointer.transform.position;
                     try
                     {
@@ -241,6 +245,7 @@ namespace StupidTemplate.Mods
                 } else if (Main.rightTrigger == 0f)
                 {
                     GorillaTagger.Instance.offlineVRRig.enabled = true;
+                    Main.ghostRigActive = false;
                 }
                 GameObject.Destroy(pointer, Time.deltaTime);
             }
@@ -251,6 +256,7 @@ namespace StupidTemplate.Mods
             if (Main.rightGrab)
             {
                 GorillaTagger.Instance.offlineVRRig.enabled = false;
+                Main.ghostRigActive = true;
                 GorillaTagger.Instance.offlineVRRig.transform.position = GorillaTagger.Instance.rightHandTransform.position + new Vector3(0f, 0.2f, 0f);
                 try
                 {
@@ -259,6 +265,7 @@ namespace StupidTemplate.Mods
             } else
             {
                 GorillaTagger.Instance.offlineVRRig.enabled = true;
+                Main.ghostRigActive = false;
             }
         }
 
@@ -269,9 +276,11 @@ namespace StupidTemplate.Mods
             if (Main.rightSecondary)
             {
                 GorillaTagger.Instance.offlineVRRig.headBodyOffset = new Vector3(9999f, 9999f, 9999f);
+                Main.ghostRigActive = true;
             } else
             {
                 GorillaTagger.Instance.offlineVRRig.headBodyOffset = Vector3.zero;
+                Main.ghostRigActive = false;
             }
         }
 
@@ -285,9 +294,11 @@ namespace StupidTemplate.Mods
                     GorillaTagger.Instance.myVRRig.transform.position = GorillaTagger.Instance.offlineVRRig.transform.position;
                 }
                 catch (Exception) { }
+                Main.ghostRigActive = true;
             } else
             {
                 GorillaTagger.Instance.offlineVRRig.enabled = true;
+                Main.ghostRigActive = false;
             }
         }
 
@@ -296,6 +307,7 @@ namespace StupidTemplate.Mods
             if (Main.rightPrimary)
             {
                 GorillaTagger.Instance.offlineVRRig.enabled = false;
+                Main.ghostRigActive = true;
                 foreach (VRRig plr in GorillaParent.instance.vrrigs)
                 {
                     GorillaTagger.Instance.offlineVRRig.transform.position = plr.transform.position;
@@ -309,6 +321,7 @@ namespace StupidTemplate.Mods
             } else
             {
                 GorillaTagger.Instance.offlineVRRig.enabled = true;
+                Main.ghostRigActive = false;
             }
         }
 
@@ -408,17 +421,14 @@ namespace StupidTemplate.Mods
 
                 if (plrVRRigs.Count == 0)
                 {
-                    // No players to look at
                     return;
                 }
 
-                // Sort the rigs by distance to the offlineVRRig
                 plrVRRigs.Sort((a, b) =>
                     Vector3.Distance(a.transform.position, GorillaTagger.Instance.offlineVRRig.transform.position)
                     .CompareTo(Vector3.Distance(b.transform.position, GorillaTagger.Instance.offlineVRRig.transform.position))
                 );
 
-                // Make offlineVRRig look at the closest rig
                 if (plrVRRigs[0].Creator.UserId != PhotonNetwork.LocalPlayer.UserId)
                 {
                     GorillaTagger.Instance.offlineVRRig.head.rigTarget.transform.LookAt(plrVRRigs[0].transform);
@@ -435,14 +445,17 @@ namespace StupidTemplate.Mods
             GorillaTagger.Instance.offlineVRRig.enabled = false;
             Vector3 currentEulerAngles = GorillaTagger.Instance.offlineVRRig.transform.rotation.eulerAngles;
             currentEulerAngles.y += 10f;
-            GorillaTagger.Instance.offlineVRRig.transform.position = GorillaTagger.Instance.myVRRig.transform.position;
+            
             GorillaTagger.Instance.offlineVRRig.transform.rotation = Quaternion.Euler(currentEulerAngles);
+            GorillaTagger.Instance.offlineVRRig.transform.position = GorillaLocomotion.Player.Instance.transform.position;
+            Main.ghostRigActive = true;
         }
 
 
         public static void DisableSpinBot()
         {
             GorillaTagger.Instance.offlineVRRig.enabled = true;
+            Main.ghostRigActive = false;
         }
 
     }

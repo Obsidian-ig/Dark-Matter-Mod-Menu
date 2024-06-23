@@ -101,6 +101,12 @@ namespace StupidTemplate.Mods
             pageNumber = 0;
         }
 
+        public static void EnterVisualMods()
+        {
+            buttonsType = 21;
+            pageNumber = 0;
+        }
+
         public static void EnableRigMods()
         {
             buttonsType = 8;

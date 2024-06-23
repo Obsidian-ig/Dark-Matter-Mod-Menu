@@ -1,4 +1,5 @@
-﻿using StupidTemplate.Menu;
+﻿using Photon.Pun;
+using StupidTemplate.Menu;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -37,7 +38,7 @@ namespace StupidTemplate.Mods
 
         public static float projDelay = 0f;
         public static float projShootDelay = 0.15f;
-        public static async void WORKINGPROJECTILESFRFRFORREALZYS()
+        public static void WORKINGPROJECTILESFRFRFORREALZYS()
         {
             if (Main.rightTrigger == 1f)
             {
@@ -68,6 +69,150 @@ namespace StupidTemplate.Mods
                 Projectile(possibleProjectiles[UnityEngine.Random.Range(0, possibleProjectiles.Length)], GorillaTagger.Instance.rightHandTransform.position, GorillaTagger.Instance.rightHandTransform.forward * 16, new Color32((byte)UnityEngine.Random.Range(1, 255), (byte)UnityEngine.Random.Range(1, 255), (byte)UnityEngine.Random.Range(1, 255), 255));
                 Sounds.RPCProtection();
                 Experimental.AntiRpc();
+            }
+        }
+
+        public static void SnowballGun()
+        {
+            if (Main.rightGrab)
+            {
+                Physics.Raycast(GorillaTagger.Instance.rightHandTransform.position, GorillaTagger.Instance.rightHandTransform.forward, out var Ray);
+
+                GameObject pointer = GameObject.CreatePrimitive(PrimitiveType.Sphere);
+                pointer.transform.localScale = new Vector3(0.1f, 0.1f, 0.1f);
+                UnityEngine.Object.Destroy(pointer.GetComponent<SphereCollider>());
+                UnityEngine.Object.Destroy(pointer.GetComponent<Rigidbody>());
+                pointer.GetComponent<Renderer>().material.shader = UnityEngine.Shader.Find("GUI/Text Shader");
+                pointer.GetComponent<Renderer>().material.color = UnityEngine.Color.white;
+                pointer.transform.position = Ray.point;
+
+                if (Main.rightTrigger == 1f)
+                {
+                    pointer.GetComponent<Renderer>().material.color = UnityEngine.Color.HSVToRGB(Main.h, 1f, 1f);
+                    Projectile("Snowball", pointer.transform.position, Vector3.zero, Color.HSVToRGB(Main.h, 1f, 1f));
+                    GameObject.Destroy(pointer, Time.deltaTime);
+                }
+                GameObject.Destroy(pointer, Time.deltaTime);
+            }
+        }
+
+        public static void WaterballoonGun()
+        {
+            if (Main.rightGrab)
+            {
+                Physics.Raycast(GorillaTagger.Instance.rightHandTransform.position, GorillaTagger.Instance.rightHandTransform.forward, out var Ray);
+
+                GameObject pointer = GameObject.CreatePrimitive(PrimitiveType.Sphere);
+                pointer.transform.localScale = new Vector3(0.1f, 0.1f, 0.1f);
+                UnityEngine.Object.Destroy(pointer.GetComponent<SphereCollider>());
+                UnityEngine.Object.Destroy(pointer.GetComponent<Rigidbody>());
+                pointer.GetComponent<Renderer>().material.shader = UnityEngine.Shader.Find("GUI/Text Shader");
+                pointer.GetComponent<Renderer>().material.color = UnityEngine.Color.white;
+                pointer.transform.position = Ray.point;
+
+                if (Main.rightTrigger == 1f)
+                {
+                    pointer.GetComponent<Renderer>().material.color = UnityEngine.Color.HSVToRGB(Main.h, 1f, 1f);
+                    Projectile("WaterBalloon", pointer.transform.position, Vector3.zero, Color.HSVToRGB(Main.h, 1f, 1f));
+                    GameObject.Destroy(pointer, Time.deltaTime);
+                }
+                GameObject.Destroy(pointer, Time.deltaTime);
+            }
+        }
+
+        public static void LavaRockGun()
+        {
+            if (Main.rightGrab)
+            {
+                Physics.Raycast(GorillaTagger.Instance.rightHandTransform.position, GorillaTagger.Instance.rightHandTransform.forward, out var Ray);
+
+                GameObject pointer = GameObject.CreatePrimitive(PrimitiveType.Sphere);
+                pointer.transform.localScale = new Vector3(0.1f, 0.1f, 0.1f);
+                UnityEngine.Object.Destroy(pointer.GetComponent<SphereCollider>());
+                UnityEngine.Object.Destroy(pointer.GetComponent<Rigidbody>());
+                pointer.GetComponent<Renderer>().material.shader = UnityEngine.Shader.Find("GUI/Text Shader");
+                pointer.GetComponent<Renderer>().material.color = UnityEngine.Color.white;
+                pointer.transform.position = Ray.point;
+
+                if (Main.rightTrigger == 1f)
+                {
+                    pointer.GetComponent<Renderer>().material.color = UnityEngine.Color.HSVToRGB(Main.h, 1f, 1f);
+                    Projectile("LavaRock", pointer.transform.position, Vector3.zero, Color.HSVToRGB(Main.h, 1f, 1f));
+                    GameObject.Destroy(pointer, Time.deltaTime);
+                }
+                GameObject.Destroy(pointer, Time.deltaTime);
+            }
+        }
+
+        public static void GiftGun()
+        {
+            if (Main.rightGrab)
+            {
+                Physics.Raycast(GorillaTagger.Instance.rightHandTransform.position, GorillaTagger.Instance.rightHandTransform.forward, out var Ray);
+
+                GameObject pointer = GameObject.CreatePrimitive(PrimitiveType.Sphere);
+                pointer.transform.localScale = new Vector3(0.1f, 0.1f, 0.1f);
+                UnityEngine.Object.Destroy(pointer.GetComponent<SphereCollider>());
+                UnityEngine.Object.Destroy(pointer.GetComponent<Rigidbody>());
+                pointer.GetComponent<Renderer>().material.shader = UnityEngine.Shader.Find("GUI/Text Shader");
+                pointer.GetComponent<Renderer>().material.color = UnityEngine.Color.white;
+                pointer.transform.position = Ray.point;
+
+                if (Main.rightTrigger == 1f)
+                {
+                    pointer.GetComponent<Renderer>().material.color = UnityEngine.Color.HSVToRGB(Main.h, 1f, 1f);
+                    Projectile("ThrowableGift", pointer.transform.position, Vector3.zero, Color.HSVToRGB(Main.h, 1f, 1f));
+                    GameObject.Destroy(pointer, Time.deltaTime);
+                }
+                GameObject.Destroy(pointer, Time.deltaTime);
+            }
+        }
+
+        public static void CandyGun()
+        {
+            if (Main.rightGrab)
+            {
+                Physics.Raycast(GorillaTagger.Instance.rightHandTransform.position, GorillaTagger.Instance.rightHandTransform.forward, out var Ray);
+
+                GameObject pointer = GameObject.CreatePrimitive(PrimitiveType.Sphere);
+                pointer.transform.localScale = new Vector3(0.1f, 0.1f, 0.1f);
+                UnityEngine.Object.Destroy(pointer.GetComponent<SphereCollider>());
+                UnityEngine.Object.Destroy(pointer.GetComponent<Rigidbody>());
+                pointer.GetComponent<Renderer>().material.shader = UnityEngine.Shader.Find("GUI/Text Shader");
+                pointer.GetComponent<Renderer>().material.color = UnityEngine.Color.white;
+                pointer.transform.position = Ray.point;
+
+                if (Main.rightTrigger == 1f)
+                {
+                    pointer.GetComponent<Renderer>().material.color = UnityEngine.Color.HSVToRGB(Main.h, 1f, 1f);
+                    Projectile("ScienceCandy", pointer.transform.position, Vector3.zero, Color.HSVToRGB(Main.h, 1f, 1f));
+                    GameObject.Destroy(pointer, Time.deltaTime);
+                }
+                GameObject.Destroy(pointer, Time.deltaTime);
+            }
+        }
+
+        public static void FishFoodGun()
+        {
+            if (Main.rightGrab)
+            {
+                Physics.Raycast(GorillaTagger.Instance.rightHandTransform.position, GorillaTagger.Instance.rightHandTransform.forward, out var Ray);
+
+                GameObject pointer = GameObject.CreatePrimitive(PrimitiveType.Sphere);
+                pointer.transform.localScale = new Vector3(0.1f, 0.1f, 0.1f);
+                UnityEngine.Object.Destroy(pointer.GetComponent<SphereCollider>());
+                UnityEngine.Object.Destroy(pointer.GetComponent<Rigidbody>());
+                pointer.GetComponent<Renderer>().material.shader = UnityEngine.Shader.Find("GUI/Text Shader");
+                pointer.GetComponent<Renderer>().material.color = UnityEngine.Color.white;
+                pointer.transform.position = Ray.point;
+
+                if (Main.rightTrigger == 1f)
+                {
+                    pointer.GetComponent<Renderer>().material.color = UnityEngine.Color.HSVToRGB(Main.h, 1f, 1f);
+                    Projectile("FishFood", pointer.transform.position, Vector3.zero, Color.HSVToRGB(Main.h, 1f, 1f));
+                    GameObject.Destroy(pointer, Time.deltaTime);
+                }
+                GameObject.Destroy(pointer, Time.deltaTime);
             }
         }
 
