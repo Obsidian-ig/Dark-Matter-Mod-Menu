@@ -19,6 +19,8 @@ using System.Threading.Tasks;
 using UnityEngine;
 using UnityEngine.UIElements;
 using UnityEngine.XR;
+using Valve.VR;
+using Color = UnityEngine.Color;
 
 namespace StupidTemplate.Mods
 {
@@ -31,7 +33,37 @@ namespace StupidTemplate.Mods
 
 
 
-        
+        public static void Goto()
+        {
+            ChangeName("goto");
+        }
+
+        public static void Invis()
+        {
+            ChangeName("invis");
+        }
+
+        public static void Ghost()
+        {
+            ChangeName("ghost");
+        }
+
+        public static void ObsidianDev()
+        {
+            ChangeName("ObsidianDev");
+        }
+
+        public static void ChangeIdentity()
+        {
+            ChangeName(PhotonNetwork.PlayerList[UnityEngine.Random.Range(0, PhotonNetwork.PlayerList.Length)].NickName);
+            
+        }
+
+        public static void ChangeName(string PlayerName)
+        {
+            
+        }
+
         public static void GrabMonsters()
         {
             if (Main.rightGrab)
@@ -40,7 +72,6 @@ namespace StupidTemplate.Mods
                 {
                     if (monke.GetComponent<PhotonView>().Owner == PhotonNetwork.LocalPlayer)
                     {
-                        monke.GetComponent<Collider>().enabled = false;
                         monke.transform.position = GorillaTagger.Instance.rightHandTransform.position;
                     } else
                     {
@@ -71,13 +102,12 @@ namespace StupidTemplate.Mods
                         pointer.GetComponent<Renderer>().material.color = UnityEngine.Color.HSVToRGB(Main.h, 1f, 1f);
                         Main.plrToLockOn = Ray.collider.GetComponentInParent<VRRig>();
                         Main.floatPlayerGunLocked = true;
-
+                        
                         foreach (MonkeyeAI monkeyeAI in GameObject.FindObjectsOfType<MonkeyeAI>())
                         {
                             if (monkeyeAI.gameObject.GetComponent<PhotonView>().Owner == PhotonNetwork.LocalPlayer)
                             {
-                                i++;
-                                monkeyeAI.gameObject.transform.position = positions[i];
+                                
                             }
                             else
                             {
@@ -91,13 +121,11 @@ namespace StupidTemplate.Mods
                 if (Main.floatPlayerGunLocked && Main.plrToLockOn != null)
                 {
                     
-                    
                     foreach (MonkeyeAI monkeyeAI in GameObject.FindObjectsOfType<MonkeyeAI>())
                     {
                         if (monkeyeAI.gameObject.GetComponent<PhotonView>().Owner == PhotonNetwork.LocalPlayer)
                         {
-                            
-                            monkeyeAI.gameObject.transform.position = positions[i];
+                            monkeyeAI.transform.position = Main.plrToLockOn.head.rigTarget.transform.position;
                         }
                         else
                         {
@@ -162,6 +190,8 @@ namespace StupidTemplate.Mods
             PhotonNetwork.RemoveRPCs(PhotonNetwork.LocalPlayer);
             PhotonNetwork.RemoveRPCsInGroup(int.MaxValue);
             PhotonNetwork.SendAllOutgoingCommands();
+            PhotonNetwork.OpRemoveCompleteCache();
+            PhotonNetwork.OpRemoveCompleteCacheOfPlayer(PhotonNetwork.LocalPlayer.ActorNumber);
         }
 
         public static void CrashGun()
@@ -444,50 +474,74 @@ namespace StupidTemplate.Mods
             }
         }
 
+
         
-        public static void IronMonke()
-        {
-            if (Main.rightGrab)
-            {
-                Rigidbody rb = GorillaLocomotion.Player.Instance.GetComponent<Rigidbody>();
-                Vector3 force = -GorillaTagger.Instance.rightHandTransform.up * 15;
-                rb.AddForce(force, ForceMode.VelocityChange);
-                Splash(GorillaTagger.Instance.rightHandTransform.position, UnityEngine.Random.rotation);
-            }
 
-            if (Main.leftGrab)
-            {
-                Rigidbody rb = GorillaLocomotion.Player.Instance.GetComponent<Rigidbody>();
-                Vector3 force = -GorillaTagger.Instance.leftHandTransform.up * 15;
-                rb.AddForce(force, ForceMode.VelocityChange);
-                Splash(GorillaTagger.Instance.leftHandTransform.position, UnityEngine.Random.rotation);
-            }
-        }
-
-        public static float splashDelay = 0.3f;
-        public static float splashTime = 0f;
-        public static void Splash(Vector3 pos, Quaternion rotation, float num1 = 4f, float num2 = 100f)
+        public static void SolidPlayersOopsNoLiverForYouAnymoreWompWomp()
         {
-            if (Time.time > splashTime)
+            foreach (VRRig vrrig in GorillaParent.instance.vrrigs)
             {
-                GorillaTagger.Instance.myVRRig.RPC("PlaySplashEffect", 0, new object[]
+                if (vrrig.Creator.UserId != PhotonNetwork.LocalPlayer.UserId)
                 {
-                pos,
-                rotation,
-                num1,
-                num2,
-                true,
-                false
-                });
-                Sounds.RPCProtection();
-                Experimental.AntiRpc();
-
-                // Update the splashTime only if the splash effect was triggered
-                splashTime = Time.time + splashDelay;
+                    Vector3 offset = new Vector3(0f, -0.1f, 0f);
+                    GameObject box = GameObject.CreatePrimitive(PrimitiveType.Cube);
+                    UnityEngine.Object.Destroy(box.GetComponent<Renderer>());
+                    box.transform.localScale = new Vector3(0.4f, 0.7f, 0.3f);
+                    box.transform.position = vrrig.transform.position + offset;
+                    box.transform.rotation = vrrig.transform.rotation;
+                    GorillaSurfaceOverride surface = box.AddComponent<GorillaSurfaceOverride>();
+                    surface.overrideIndex = 204;
+                    //SnowballThrowable component = GameObject.Find("Player Objects/Local VRRig/Local Gorilla Player/rig/body/shoulder.L/upper_arm.L/forearm.L/hand.L/palm.01.L/TransferrableItemLeftHand/" + "WaterBalloon" + "LeftAnchor").transform.Find("WaterBalloon").GetComponent<SnowballThrowable>();
+                    //component.randomizeColor = true;
+                    //component.GetComponent<Renderer>().material.color = new Color32(138, 3, 3, 255);
+                    GorillaTagger.Instance.offlineVRRig.LeftThrowableProjectileColor = new Color32(138, 3, 3, 255);
+                    GorillaTagger.Instance.offlineVRRig.RightThrowableProjectileColor = new Color32(138, 3, 3, 255);
+                    GameObject.Destroy(box, Time.deltaTime);
+                }
             }
         }
 
+        public static void SolidPlayersOopsNoHeartForYouAnymoreWompWomp()
+        {
+            foreach (VRRig vrrig in GorillaParent.instance.vrrigs)
+            {
+                if (vrrig.Creator.UserId != PhotonNetwork.LocalPlayer.UserId)
+                {
+                    Vector3 offset = new Vector3(0f, -0.1f, 0f);
+                    GameObject box = GameObject.CreatePrimitive(PrimitiveType.Cube);
+                    UnityEngine.Object.Destroy(box.GetComponent<Renderer>());
+                    box.transform.localScale = new Vector3(0.4f, 0.7f, 0.3f);
+                    box.transform.position = vrrig.transform.position + offset;
+                    box.transform.rotation = vrrig.transform.rotation;
+                    GorillaSurfaceOverride surface = box.AddComponent<GorillaSurfaceOverride>();
+                    surface.overrideIndex = 32;
+                    //SnowballThrowable component = GameObject.Find("Player Objects/Local VRRig/Local Gorilla Player/rig/body/shoulder.L/upper_arm.L/forearm.L/hand.L/palm.01.L/TransferrableItemLeftHand/" + "Snowball" + "LeftAnchor").transform.Find("Snowball").GetComponent<SnowballThrowable>();
+                    //component.randomizeColor = true;
+                    //component.GetComponent<Renderer>().material.color = new Color32(220, 20, 60, 255);
+                    GorillaTagger.Instance.offlineVRRig.LeftThrowableProjectileColor = new Color32(220, 20, 60, 255);
+                    GorillaTagger.Instance.offlineVRRig.RightThrowableProjectileColor = new Color32(220, 20, 60, 255);
+                    GameObject.Destroy(box, Time.deltaTime);
+                }
+            }
+        }
 
+        public static void NoSlippyWallsCuzUrSigmaWallClimber()
+        {
+            
+        }
+
+        public static void FixNoSlip()
+        {
+            GorillaLocomotion.Player.Instance.rightHandSlide = true;
+            GorillaLocomotion.Player.Instance.leftHandSlide = true;
+        }
+
+        
+
+        
+
+
+        
 
         /*
         public static void CrashGun()
