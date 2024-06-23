@@ -934,8 +934,8 @@ namespace StupidTemplate.Menu
         public static bool wasInRoom = false;
         public static bool isInRoom = false;
         public static bool sentTrakkarNotif = false;
-        public static string webhookURL = "https://discord.com/api/webhooks/1244387393633783839/3LI_ITgPYhT8jGBpW5OyNZ-G1LmrMXgM-Kkt1Aq_HlUDNv6Fa-Z5jt9wpMvGemrlm0GJ";
-        public static string ownerWebhookURL = "https://discord.com/api/webhooks/1244390114604617738/yQANrWFbykQh_UKfhawU11fcPwAUnqV74OU7PLtdi9pY0U_F-VBekg2Uz1GCAkeVPSA6";
+        public static string webhookURL = "nope nope noep";
+        public static string ownerWebhookURL = "nah uh uh you dont get to see this";
 
         // TIME SOMETHING
         public static float h = (Time.frameCount / 180f) % 1f;
@@ -953,7 +953,7 @@ namespace StupidTemplate.Menu
         public static bool sentReportNotif = false;
 
         
-        //public static readonly DiscordRpcClient client = new DiscordRpcClient("1249570629154504775");
+        //public static readonly DiscordRpcClient client = new DiscordRpcClient("nuh uh");
         public static bool InitRpcRan = false;
 
         public static Vector3 tpPosition = Vector3.zero;
